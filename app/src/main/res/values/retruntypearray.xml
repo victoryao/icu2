@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="returnType">
+         <item>@string/same_day_return_type</item>
+     </string-array>
+     <string-array name="exchangeType">
+         <item>@string/same_day_exchange_text</item>
+     </string-array>
+</resources>

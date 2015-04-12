@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="25dip"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dip"
+        android:paddingTop="10dip"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/risk_disease_n1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n1" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n2" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n3" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n4" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n5" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n6" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n7" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n8" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n9" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n10" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n11" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/risk_disease_n12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/risk_disease_n12" >
+        </CheckBox>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/risk_disease_fragment.xml -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/home_text_masking_press" android:state_pressed="true"/>
+    <item android:drawable="@drawable/home_text_masking_press" android:state_focused="true"/>
+    <item android:drawable="@drawable/home_text_masking"/>
+
+</selector><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/drawable/home_item_text_bg.xml -->

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/list_item_padding" >
+
+    <TextView
+        style="@style/Widget.Item.ListView.Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/pref_title_userinfo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_top_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/TextAppearance.List.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/pref_title_userinfo_name"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/user_name"
+            style="@style/TextAppearance.List.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_middle_bg"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/TextAppearance.List.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/pref_title_userinfo_mihome_name"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/user_mihome_name"
+            style="@style/TextAppearance.List.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_bottom_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/TextAppearance.List.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/pref_title_userinfo_miliao"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/user_miliao"
+            style="@style/TextAppearance.List.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/Widget.Item.ListView.Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/pref_title_category_about" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_top_bg" >
+
+        <TextView
+            android:id="@+id/version_name"
+            style="@style/TextAppearance.List.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/pref_item_check_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_bottom_bg"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/TextAppearance.List.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/pref_title_check_version"
+            android:textSize="@dimen/text_size_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_next" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="@style/Widget.Button.Main"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dip"
+        android:text="@string/logout" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.xms.sales.ui.BluetoothListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Item.ListView.SingleLine" >
+
+    <ImageView
+        android:id="@+id/bluetooth_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/bluetooth_icon" />
+
+    <TextView
+        android:id="@+id/bluetooth_name_text"
+        style="@style/TextAppearance.List.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_toLeftOf="@+id/order_arrow"
+        android:layout_toRightOf="@+id/bluetooth_icon"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_medium" />
+
+    <ImageView
+        android:id="@+id/order_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/btn_next" />
+
+</com.xiaomi.xms.sales.ui.BluetoothListItem>

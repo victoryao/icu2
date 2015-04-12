@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="fill_vertical" >
+
+    <com.xiaomi.xms.sales.widget.SelfBindView
+        android:id="@+id/head_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:adjustViewBounds="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:scaleType="fitXY" />
+
+</LinearLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/miphone_detail_headview.xml -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/return_choice_radiogroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <TextView
+        style="@style/Widget.Item.ListView.Label"
+        android:text="@string/rass_test_title" />
+
+    <RadioGroup
+        android:id="@+id/return_goods_status_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        >
+    </RadioGroup>
+
+</LinearLayout>

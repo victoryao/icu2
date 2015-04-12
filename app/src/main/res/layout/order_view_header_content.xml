@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/order_view_body"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/list_item_padding"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    android:paddingTop="0dip" >
+
+    <include
+        android:id="@+id/action_divider"
+        layout="@layout/horizontal_divider" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_item_padding"
+        android:shrinkColumns="1"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                style="@style/Widget.Item.Table"
+                android:layout_gravity="top"
+                android:layout_marginRight="8dip"
+                android:paddingLeft="0dip"
+                android:text="@string/order_add_time"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/add_time"
+                style="@style/Widget.Item.Table"
+                android:textColor="@color/primary_text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/Widget.Item.Table"
+                android:layout_gravity="top"
+                android:layout_marginRight="8dip"
+                android:paddingLeft="0dip"
+                android:text="@string/order_view_id"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/order_id"
+                style="@style/Widget.Item.Table"
+                android:textColor="@color/primary_text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/Widget.Item.Table"
+                android:layout_gravity="top"
+                android:layout_marginRight="8dip"
+                android:paddingLeft="0dip"
+                android:text="@string/order_invoice_information"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/invoice_info"
+                style="@style/Widget.Item.Table"
+                android:textColor="@color/primary_text" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/payment_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1"
+        android:stretchColumns="1"
+        android:visibility="gone" >
+
+        <TableRow>
+
+            <TextView
+                style="@style/Widget.Item.Table"
+                android:layout_gravity="top"
+                android:layout_marginRight="8dip"
+                android:paddingLeft="0dip"
+                android:text="@string/order_view_payment_time_text"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/payment_info_time"
+                style="@style/Widget.Item.Table"
+                android:textColor="@color/primary_text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/Widget.Item.Table"
+                android:layout_gravity="top"
+                android:layout_marginRight="8dip"
+                android:paddingLeft="0dip"
+                android:text="@string/order_view_payment_refno_text"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/payment_info_refno"
+                style="@style/Widget.Item.Table"
+                android:textColor="@color/primary_text" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1"
+        android:stretchColumns="1"
+        android:visibility="gone" >
+
+        <TableRow>
+
+            <TextView
+                style="@style/Widget.Item.Table"
+                android:layout_gravity="top"
+                android:layout_marginRight="8dip"
+                android:paddingLeft="0dip"
+                android:text="@string/order_view_user_name"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/receive_user_name"
+                style="@style/Widget.Item.Table"
+                android:textColor="@color/primary_text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/Widget.Item.Table"
+                android:layout_gravity="top"
+                android:layout_marginRight="8dip"
+                android:paddingLeft="0dip"
+                android:text="@string/order_view_user_tel"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/receive_user_tel"
+                style="@style/Widget.Item.Table"
+                android:textColor="@color/primary_text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/Widget.Item.Table"
+                android:layout_gravity="top"
+                android:layout_marginRight="8dip"
+                android:paddingLeft="0dip"
+                android:text="@string/order_view_user_email"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/receive_user_email"
+                style="@style/Widget.Item.Table"
+                android:textColor="@color/primary_text" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/numbertest"
+        android:background="#FFCC00"
+        android:textColor="@color/primary_text_inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dip"
+        android:layout_marginTop="80dip"
+        android:text="@string/number_test"
+        android:textSize="50sp" >
+    </Button>
+
+    <Button
+        android:id="@+id/picturetest"
+        android:background="#666600"
+        android:textColor="@color/primary_text_inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dip"
+        android:layout_marginTop="27dip"
+        android:text="@string/picture_test"
+        android:textSize="50sp" >
+    </Button>
+
+    <Button
+        android:id="@+id/wordtest"
+        android:textColor="@color/primary_text_inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dip"
+        android:layout_marginTop="27dip"
+        android:text="@string/word_test"
+        android:textSize="50sp" >
+    </Button>
+
+</LinearLayout>

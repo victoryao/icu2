@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yaoqiang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/yaoqiang/AndroidStudioProjects/icu/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-1d4cf624148547c528f6a27193d07cde9f658d0d.jar" />
+    </item>
+    <item
+        jar="/Users/yaoqiang/AndroidStudioProjects/icu/app/libs/core-2.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ec73a2448016110260467fa7ab18bf77c6eef06">
+        <dex dex="/Users/yaoqiang/AndroidStudioProjects/icu/app/build/intermediates/pre-dexed/debug/core-2.3.0-2e8a30f64e3f989e8e235e49837aad7a2645cd4d.jar" />
+    </item>
+    <item
+        jar="/Users/yaoqiang/AndroidStudioProjects/icu/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/yaoqiang/AndroidStudioProjects/icu/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-26685513562e09ac1f76f1bfaac89ccf125aaace.jar" />
+    </item>
+    <item
+        jar="/Users/yaoqiang/AndroidStudioProjects/icu/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/yaoqiang/AndroidStudioProjects/icu/app/build/intermediates/pre-dexed/debug/classes-83273386f1b948ac03cada602b0a0aa4d45769b8.jar" />
+    </item>
+    <item
+        jar="/Users/yaoqiang/AndroidStudioProjects/icu/app/libs/bluetoothPos.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ee405cbb7faff2651f7867c3401bc0ec4983dd25">
+        <dex dex="/Users/yaoqiang/AndroidStudioProjects/icu/app/build/intermediates/pre-dexed/debug/bluetoothPos-2765b7295405634814f59dadf78418d1105c997d.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/account_info_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/main_tab_header_view" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/account_login_bg" />
+
+            <LinearLayout
+                android:id="@+id/not_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/TextAppearance.List.Primary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/account_login_text_top_padding"
+                    android:gravity="center"
+                    android:text="@string/account_login_primary_text"
+                    android:textColor="@color/highlight_text_color"
+                    android:textSize="27sp" />
+
+                <TextView
+                    style="@style/TextAppearance.List.Primary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/account_login_second_text"
+                    android:textColor="#ab9587"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/alread_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/account_head_logout" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/account_logout_text_left_padding"
+                    android:paddingTop="@dimen/account_logout_text_top_padding" >
+
+                    <LinearLayout
+                        android:id="@+id/account_exit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/account_user_name"
+                            style="@style/TextAppearance.List.Primary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:textColor="@color/primary_text_color_inverse"
+                            android:textSize="@dimen/text_size_large" />
+
+                        <TextView
+                            android:id="@+id/account_user_org_name"
+                            style="@style/TextAppearance.List.Primary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:textColor="@color/primary_text_color_inverse"
+                            android:textSize="@dimen/text_size_medium" />
+
+                        <TextView
+                            style="@style/TextAppearance.List.Primary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/welecome"
+                            android:textColor="@color/primary_text_color_inverse"
+                            android:textSize="@dimen/text_size_medium"
+                            android:visibility="gone" />
+
+                        <TextView
+                            style="@style/TextAppearance.List.Primary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/account_exit"
+                            android:textColor="@color/primary_text_color_inverse"
+                            android:textSize="@dimen/text_size_medium" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <com.xiaomi.xms.sales.widget.EmptyLoadingView
+                android:id="@+id/loading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="9dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip" >
+
+            <RelativeLayout
+                android:id="@+id/account_my_order_list"
+                style="@style/Widget.Item.ListView.SingleLine"
+                android:background="@drawable/list_item_top_bg" >
+
+                <ImageView
+                    android:id="@+id/order_item_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:adjustViewBounds="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:src="@drawable/search_order_icon" />
+
+                <TextView
+                    android:id="@+id/order_item_text"
+                    style="@style/TextAppearance.List.Primary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/order_item_icon"
+                    android:text="@string/account_my_order_list"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <ImageView
+                    android:id="@+id/order_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_next" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/account_nonpayment_list"
+                style="@style/Widget.Item.ListView.SingleLine"
+                android:background="@drawable/list_item_middle_bg" >
+
+                <ImageView
+                    android:id="@+id/nonpayment_item_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:adjustViewBounds="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:src="@drawable/wait_payment_icon" />
+
+                <TextView
+                    android:id="@+id/nonpayment_item_text"
+                    style="@style/TextAppearance.List.Primary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/nonpayment_item_icon"
+                    android:text="@string/account_wait_pay_list"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <TextView
+                    android:id="@+id/nonpayment_item_text_count"
+                    style="@style/TextAppearance.Small.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:layout_toRightOf="@id/nonpayment_item_text"
+                    android:background="@drawable/account_order_remind_count"
+                    android:gravity="center"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/nonpayment_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_next" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/account_express_list"
+                style="@style/Widget.Item.ListView.SingleLine"
+                android:background="@drawable/list_item_middle_bg" >
+
+                <ImageView
+                    android:id="@+id/express_item_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:adjustViewBounds="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:src="@drawable/express_icon" />
+
+                <TextView
+                    android:id="@+id/express_item_text"
+                    style="@style/TextAppearance.List.Primary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/express_item_icon"
+                    android:text="@string/account_express_list"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <TextView
+                    android:id="@+id/express_item_count"
+                    style="@style/TextAppearance.Small.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:layout_toRightOf="@id/express_item_text"
+                    android:background="@drawable/account_order_remind_count"
+                    android:gravity="center"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/express_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_next" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/account_order_edit"
+                style="@style/Widget.Item.ListView.SingleLine"
+                android:background="@drawable/list_item_bottom_bg" >
+
+                <ImageView
+                    android:id="@+id/account_order_edit_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:adjustViewBounds="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:src="@drawable/edit_icon" />
+
+                <TextView
+                    style="@style/TextAppearance.List.Primary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/account_order_edit_icon"
+                    android:text="@string/account_order_edit_text"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <ImageView
+                    android:id="@+id/edit_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/btn_next" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

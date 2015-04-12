@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tab_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false" >
+
+            <ImageView
+                android:id="@+id/tab_container_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tab_container_bg_leftmargin"
+                android:background="@drawable/tab_container_bg" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_container"
+            style="@style/Widget.TabContainer" >
+
+            <com.xiaomi.xms.sales.widget.TabIndicator
+                android:id="@+id/tab_indicator_home"
+                style="@style/Widget.TabIndicator"
+                android:text="@string/tab_indicator_home" />
+
+            <com.xiaomi.xms.sales.widget.TabIndicator
+                android:id="@+id/tab_indicator_category"
+                style="@style/Widget.TabIndicator"
+                android:text="@string/tab_indicator_category" />
+
+            <com.xiaomi.xms.sales.widget.TabIndicator
+                android:id="@+id/tab_indicator_lottery"
+                style="@style/Widget.TabIndicator"
+                android:text="@string/tab_indicator_thinking" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/main_activity.xml -->

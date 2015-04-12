@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/menu_url"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/list_item_middle_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/menu_url"
+        android:textColor="@color/primary_text_color"
+        style="@style/TextAppearance.Normal" />
+
+    <TextView
+        android:id="@+id/menu_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/list_item_middle_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/menu_refresh"
+        android:textColor="@color/primary_text_color"
+        style="@style/TextAppearance.Normal" />
+
+    <TextView
+        android:id="@+id/menu_orders"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/list_item_middle_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/menu_orders"
+        android:textColor="@color/primary_text_color"
+        style="@style/TextAppearance.Normal" />
+    
+     <TextView
+        android:id="@+id/menu_setting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/list_item_middle_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/menu_setting"
+        android:textColor="@color/primary_text_color"
+        style="@style/TextAppearance.Normal" />
+
+    <TextView
+        android:id="@+id/menu_update"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/list_item_middle_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/menu_update"
+        android:textColor="@color/primary_text_color"
+        style="@style/TextAppearance.Normal" />
+    
+    <TextView
+        android:id="@+id/menu_printagain"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/list_item_middle_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/menu_printagain"
+        android:textColor="@color/primary_text_color"
+        style="@style/TextAppearance.Normal" />
+    
+     <TextView
+        android:id="@+id/menu_uploadlog"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/list_item_middle_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/menu_uploadfile"
+        android:textColor="@color/primary_text_color"
+        style="@style/TextAppearance.Normal" />
+    
+    
+
+    <TextView
+        android:id="@+id/menu_switch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/list_item_middle_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/menu_switch_test"
+        android:textColor="@color/primary_text_color"
+        style="@style/TextAppearance.Normal" />
+
+</LinearLayout>

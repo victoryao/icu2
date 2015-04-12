@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <RelativeLayout
+        android:id="@+id/bottom"
+        style="@style/Widget.Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/order_bottom_bg"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/Widget.Button.Main.Shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="27dip"
+            android:paddingRight="27dip"
+            android:text="@string/begin_test" />
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/Widget.Item.ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/search_order_sn_input"
+                style="@style/Widget.EditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:hint="@string/search_patient_id_hint" />
+
+            <ImageView
+                android:id="@+id/search_order_sn_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-4dp"
+                android:background="@drawable/btn_search" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/kong"
+            style="@style/Widget.Item.ListView.Label" >
+
+            <TextView
+                style="@style/TextAppearance.List.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/scan_order_sn"
+            style="@style/Widget.Item.ListView.SingleLine"
+            android:background="@drawable/list_item_top_bg" >
+
+            <ImageView
+                android:id="@+id/scan_order_sn_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/edit_icon" />
+
+            <TextView
+                style="@style/TextAppearance.List.Primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/scan_order_sn_icon"
+                android:text="@string/scan_patient_id_text"
+                android:textSize="@dimen/text_size_huge" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/btn_next" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/kong1"
+            style="@style/Widget.Item.ListView.Label" >
+
+            <TextView
+                style="@style/TextAppearance.List.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/patient_info_container"
+            style="@style/Widget.Item.ListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/patient_name_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height_single_line"
+                android:background="@drawable/order_view_body" >
+
+                <include
+                    android:id="@+id/top_line"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dip"
+                    layout="@layout/horizontal_divider" />
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="85dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:text="@string/patient_gender"
+                    android:textSize="@dimen/text_size_large" />
+
+                <LinearLayout
+                    android:id="@+id/vertical_bar"
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/title"
+                    android:background="@android:drawable/divider_horizontal_bright"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/vertical_bar"
+                    android:text="张三"
+                    android:textSize="@dimen/text_size_large" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/shipment_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height_single_line"
+                android:background="@drawable/order_view_body" >
+
+                <include
+                    android:id="@+id/top_line"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dip"
+                    layout="@layout/horizontal_divider" />
+
+                <TextView
+                    android:id="@+id/title1"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="85dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:text="@string/patient_age"
+                    android:textSize="@dimen/text_size_large" />
+
+                <TextView
+                    android:id="@+id/shipment"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:gravity="right"
+                    android:textSize="@dimen/text_size_large" />
+
+                <LinearLayout
+                    android:id="@+id/vertical_bar1"
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/title1"
+                    android:background="@android:drawable/divider_horizontal_bright"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/vertical_bar1"
+                    android:text="45"
+                    android:textSize="@dimen/text_size_large" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/coupon_discount_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height_single_line"
+                android:background="@drawable/order_view_body" >
+
+                <include
+                    android:id="@+id/top_line"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dip"
+                    layout="@layout/horizontal_divider" />
+
+                <TextView
+                    android:id="@+id/title3"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="85dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:text="@string/patient_department"
+                    android:textSize="@dimen/text_size_large" />
+
+                <TextView
+                    android:id="@+id/coupon_discount"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:gravity="right"
+                    android:textSize="@dimen/text_size_large" />
+
+                <LinearLayout
+                    android:id="@+id/vertical_bar4"
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/title3"
+                    android:background="@android:drawable/divider_horizontal_bright"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/vertical_bar4"
+                    android:text="呼吸ICU"
+                    android:textSize="@dimen/text_size_large" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_discount_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height_single_line"
+                android:background="@drawable/order_view_body" >
+
+                <include
+                    android:id="@+id/top_line"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dip"
+                    layout="@layout/horizontal_divider" />
+
+                <TextView
+                    android:id="@+id/title4"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="85dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:text="床号"
+                    android:textSize="@dimen/text_size_large" />
+
+                <LinearLayout
+                    android:id="@+id/vertical_bar2"
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/title4"
+                    android:background="@android:drawable/divider_horizontal_bright"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/vertical_bar2"
+                    android:text="23"
+                    android:textSize="@dimen/text_size_large" />
+
+                <TextView
+                    android:id="@+id/activity_discount"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:gravity="right"
+                    android:textSize="@dimen/text_size_large" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moling_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height_single_line"
+                android:background="@drawable/order_view_body" >
+
+                <include
+                    android:id="@+id/top_line"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dip"
+                    layout="@layout/horizontal_divider" />
+
+                <TextView
+                    android:id="@+id/title5"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="85dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:text="@string/patient_add_time"
+                    android:textSize="@dimen/text_size_large" />
+
+                <LinearLayout
+                    android:id="@+id/vertical_bar5"
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/title5"
+                    android:background="@android:drawable/divider_horizontal_bright"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/vertical_bar5"
+                    android:text="201304"
+                    android:textSize="@dimen/text_size_large" />
+
+                <TextView
+                    android:id="@+id/moling_money"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:gravity="right"
+                    android:textSize="@dimen/text_size_large" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/amount_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height_single_line"
+                android:background="@drawable/order_view_body" >
+
+                <include
+                    android:id="@+id/top_line"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dip"
+                    layout="@layout/horizontal_divider" />
+
+                <TextView
+                    android:id="@+id/title2"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="85dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:text="@string/patient_diagnose"
+                    android:textColor="@color/highlight_text"
+                    android:textSize="@dimen/text_size_large" />
+
+                <TextView
+                    android:id="@+id/amount"
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:gravity="right"
+                    android:textColor="@color/highlight_text"
+                    android:textSize="@dimen/text_size_large" />
+
+                <LinearLayout
+                    android:id="@+id/vertical_bar3"
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/title2"
+                    android:background="@android:drawable/divider_horizontal_bright"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    style="@style/TextAppearance.List.Secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/vertical_bar3"
+                    android:text="呼吸衰竭"
+                    android:textColor="@color/highlight_text"
+                    android:textSize="@dimen/text_size_large" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/order_view_footer" >
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

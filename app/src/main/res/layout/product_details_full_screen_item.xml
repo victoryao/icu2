@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.xms.sales.ui.ProductDetailsFullScreenItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <com.xiaomi.xms.sales.widget.gallery.ZoomImageView
+        android:id="@+id/product_details_photo_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:focusableInTouchMode="true"
+        android:scaleType="centerInside"
+        android:layout_marginTop="2dip" />
+
+</com.xiaomi.xms.sales.ui.ProductDetailsFullScreenItem>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/scanner_result" />
+
+    <TextView
+        android:id="@+id/result"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/result_lable"
+        style="@style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:text="@string/scanner_result_label" />
+
+    <Button
+        android:id="@+id/back"
+        style="@style/Widget.Button"
+        android:layout_width="150dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:text="@string/scanner_result_btn" />
+
+</LinearLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/mihome_buy_error_fragment.xml -->

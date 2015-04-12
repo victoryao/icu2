@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding" >
+
+    <!--
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center" 
+        android:layout_marginTop="2dip"
+        android:layout_marginBottom="10dip"
+        android:src="@drawable/logo"/>
+    -->
+    <AutoCompleteTextView
+        android:id="@+id/et_account_name"
+        style="@style/Widget.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/account_hint_text"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/et_account_password"
+        style="@style/Widget.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:hint="@string/password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/Widget.Button.Main"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dip"
+        android:text="@string/login" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:visibility= "gone">
+
+        <TextView
+            android:id="@+id/tv_reg_new"
+            style="@style/Widget.HyperLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_forget_pwd"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:layout_marginRight="5dip"
+            android:text="@string/micloud_reg_new" />
+
+        <TextView
+            android:id="@+id/tv_forget_pwd"
+            style="@style/Widget.HyperLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:text="@string/forget_password" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/micloud_login.xml -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common related -->
+    <dimen name="tab_container_bg_leftmargin">-240dip</dimen>
+
+    <!--  -->
+    <dimen name="dialog_window_width">290dip</dimen>
+    <dimen name="category_photo_size">134dip</dimen>
+    <dimen name="micloud_login_progress_top">70dip</dimen>
+
+    <!-- Festival related -->
+    <dimen name="festival_description_margin_bottom">10dip</dimen>
+
+    <!-- Home related -->
+    <dimen name="home_photo_box_height">168dip</dimen>
+    <dimen name="lottery_photo_box_height">157.5dip</dimen>
+
+    <!-- account item related -->
+    <dimen name="account_item_height">104dip</dimen>
+    <dimen name="account_login_text_top_padding">82dip</dimen>
+    <dimen name="account_logout_text_top_padding">74dip</dimen>
+    <dimen name="account_logout_text_left_padding">164dip</dimen>
+
+    <!-- scan -->
+    <dimen name="scan_text_prompt_bottom">105dip</dimen>
+    <dimen name="scan_code_bottom">3dip</dimen>
+    <dimen name="scan_text_prompt_left">88dip</dimen>
+    <dimen name="mihome_info_text_bottom">25dip</dimen>
+    
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common related -->
+    <dimen name="tab_container_bg_leftmargin">-270dip</dimen>
+
+</resources>

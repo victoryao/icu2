@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/base_list_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/single_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@android:color/white"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            style="@style/Widget.Item.ListView.SingleLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/price"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/primary_text_color" />
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/highlight_text_color" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/single_submit_btn"
+            style="@style/Widget.Button.Main.Shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/add_shopping_cart" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/fcode_select_fragment.xml -->

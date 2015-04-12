@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="center"
+        android:src="@drawable/nfc" />
+
+    <TextView
+        android:id="@+id/nfc_result"
+        style="@style/Widget.Item.ListView.Label"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:paddingLeft="@dimen/list_item_padding"
+        android:text="@string/nfc_hint_info"
+        android:textSize="@dimen/text_size_medium" />
+
+</LinearLayout>

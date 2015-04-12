@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/bluetooth_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bluetooth_search_layout"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/bluetooth_list_title"
+            style="@style/Widget.Item.ListView.Label"
+            android:paddingBottom="0dip"
+            android:paddingLeft="10dip"
+            android:text="@string/bluetooth_search_list_info"
+            android:visibility="gone" />
+
+        <include layout="@layout/base_list_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bluetooth_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/add_button_layout_bg"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/bluetooth_search_btn"
+            style="@style/Widget.Button.Main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/list_item_padding"
+            android:text="@string/bluetooth_search_info" />
+    </LinearLayout>
+
+    <ViewStub
+        android:id="@+id/bluetooth_close_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/bluetooth_close_view" />
+
+</RelativeLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/bluetooth_fragment.xml -->

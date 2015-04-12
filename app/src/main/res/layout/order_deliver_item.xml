@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.xms.sales.ui.OrderViewDeliverItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:paddingBottom="10dip" >
+
+    <LinearLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deliver_separated_bg"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/list_item_padding"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="15dip"
+            android:textSize="@dimen/text_size_medium" >
+        </TextView>
+
+        <include
+            android:id="@+id/action_divider"
+            layout="@layout/horizontal_divider" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/deliver_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_container"
+        android:background="@drawable/order_view_body"
+        android:orientation="vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="0dip" >
+
+        <TextView
+            android:id="@+id/deliver_id"
+            style="@style/TextAppearance.Title.List"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/order_deliver_status"
+            style="@style/TextAppearance.Title.List"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/order_express_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deliver_info"
+        android:background="@drawable/order_view_body"
+        android:paddingBottom="5dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="0dip"
+        android:visibility="gone" >
+
+        <include
+            android:id="@+id/action_divider"
+            android:layout_alignParentTop="true"
+            layout="@layout/horizontal_divider" />
+
+        <TableLayout
+            android:id="@+id/order_express_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/action_divider"
+            android:layout_marginTop="@dimen/list_item_padding"
+            android:shrinkColumns="1"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Widget.Item.Table"
+                    android:layout_gravity="top"
+                    android:layout_marginRight="5dip"
+                    android:paddingLeft="0dip"
+                    android:text="@string/order_express_info"
+                    android:textColor="@color/primary_text" />
+
+                <TextView
+                    android:id="@+id/order_express_text"
+                    style="@style/Widget.Item.Table"
+                    android:textColor="@color/primary_text" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Widget.Item.Table"
+                    android:layout_gravity="top"
+                    android:layout_marginRight="5dip"
+                    android:paddingLeft="0dip"
+                    android:text="@string/order_express_sn_label"
+                    android:textColor="@color/primary_text" />
+
+                <TextView
+                    android:id="@+id/order_express_sn"
+                    style="@style/Widget.Item.Table"
+                    android:textColor="@color/primary_text" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_next" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/prodct_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order_express_info"
+        android:background="@drawable/order_view_body"
+        android:orientation="vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="0dip" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/prodct_container"
+        android:background="@drawable/order_view_body" />
+
+    <LinearLayout
+        android:id="@+id/action_divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:orientation="vertical"
+        android:layout_below="@+id/bottom_back"
+        android:background="@android:drawable/divider_horizontal_bright" />
+
+</com.xiaomi.xms.sales.ui.OrderViewDeliverItem>

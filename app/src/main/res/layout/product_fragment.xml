@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/base_grid_view" />
+
+    <LinearLayout
+        android:id="@+id/sort_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/product_grid_header_height"
+        android:background="@drawable/filter_bg"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/sort_default"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/filter_default"
+            android:textColor="@color/filter_text_color"
+            android:textSize="@dimen/text_size_medium" />
+
+        <Button
+            android:id="@+id/sort_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/filter_time"
+            android:textColor="@color/filter_text_color"
+            android:textSize="@dimen/text_size_medium" />
+
+        <LinearLayout
+            android:id="@+id/sort_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:clickable="false"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="@string/filter_price"
+                android:textColor="@color/filter_text_color"
+                android:textSize="@dimen/text_size_medium" />
+
+            <ImageView
+                android:id="@+id/sort_price_icon_asc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:duplicateParentState="true"
+                android:src="@drawable/filter_price_icon_asc" />
+
+            <ImageView
+                android:id="@+id/sort_price_icon_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:duplicateParentState="true"
+                android:src="@drawable/filter_price_icon_desc"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sort_comment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:text="@string/filter_comment"
+            android:textColor="@color/filter_text_color"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+</FrameLayout>

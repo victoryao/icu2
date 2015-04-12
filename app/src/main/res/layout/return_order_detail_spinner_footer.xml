@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/return_operation_spinner"
+    android:visibility="gone" >
+
+    <TextView
+        android:id="@+id/return_operation_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/return_operation_name_title"
+        android:textSize="@dimen/text_size_medium" />
+
+    <Spinner
+        android:id="@+id/return_operation_type"
+        style="@style/Widget.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:entries="@array/returnType"
+        android:gravity="center" />
+
+</LinearLayout>

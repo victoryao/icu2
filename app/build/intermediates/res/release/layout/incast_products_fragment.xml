@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/list_item_padding" >
+
+        <com.xiaomi.xms.sales.widget.gallery.GalleryLikePager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_item_padding"
+            android:spacing="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_item_padding" >
+
+            <TextView
+                android:id="@+id/name_info"
+                style="@style/TextAppearance.Large"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/primary_text_color" />
+
+            <TextView
+                android:id="@+id/price_info"
+                style="@style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/highlight_text_color" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/add_button"
+            style="@style/Widget.Button.Main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="15dip"
+            android:text="@string/add_shopping_cart"
+            android:textSize="@dimen/text_size_large" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/incast_products_fragment.xml -->

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.xiaomi.xms.sales.ui.OrderLayout
+                android:id="@+id/order_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/payment_order_info_bg"
+                android:paddingBottom="60dip"
+                android:shrinkColumns="1"
+                android:stretchColumns="1" >
+
+                <TextView
+                    android:id="@+id/order_payment_tile"
+                    style="@style/TextAppearance.Title.List"
+                    android:layout_marginBottom="17dip"
+                    android:layout_marginTop="17dip"
+                    android:drawableLeft="@drawable/payment_ok"
+                    android:gravity="center"
+                    android:textColor="#ff8ebb54" />
+
+                <include layout="@layout/horizontal_divider" />
+
+                <TableRow android:layout_marginTop="10dip" >
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/order_id" />
+
+                    <TextView
+                        android:id="@+id/order_id"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/pickup_person_layout"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:layout_gravity="top"
+                        android:text="@string/payment_view_pickup_person_text" />
+
+                    <TextView
+                        android:id="@+id/pickup_person_name"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/order_recipient_layout"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/order_recipient" />
+
+                    <TextView
+                        android:id="@+id/order_recipient"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/order_recipient_phone_layout"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/order_recipient_phone" />
+
+                    <TextView
+                        android:id="@+id/order_recipient_phone"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/order_detail_address_layout"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/order_detail_address" />
+
+                    <TextView
+                        android:id="@+id/order_detail_address"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/order_delivery_time_layout"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/order_delivery_time_title"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/order_delivery_time" />
+
+                    <TextView
+                        android:id="@+id/order_delivery_time"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow android:visibility="gone" >
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/order_invoice_info" />
+
+                    <TextView
+                        android:id="@+id/order_invoice_info"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/pickup_address_layout"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:layout_gravity="top"
+                        android:layout_marginRight="5dip"
+                        android:gravity="left"
+                        android:text="@string/payment_pickup_address" />
+
+                    <TextView
+                        android:id="@+id/pickup_address_text"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:paddingRight="50dip" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/pickup_tel_layout"
+                    android:visibility="gone" >
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:layout_gravity="top"
+                        android:layout_marginRight="5dip"
+                        android:gravity="left"
+                        android:text="@string/payment_pickup_tel" />
+
+                    <TextView
+                        android:id="@+id/pickup_tel_text"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:paddingRight="40dip" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/order_fee" />
+
+                    <TextView
+                        android:id="@+id/order_fee"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:textColor="@color/highlight_text_color" />
+                </TableRow>
+            </com.xiaomi.xms.sales.ui.OrderLayout>
+
+            <LinearLayout
+                android:id="@+id/pay_action_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/list_item_padding"
+                android:visibility="visible" >
+
+                <TextView
+                    style="@style/Widget.Item.ListView.Label"
+                    android:layout_marginTop="7dip"
+                    android:text="@string/order_pyament_type" />
+
+                <Spinner
+                    android:id="@+id/pay_type"
+                    style="@style/Widget.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/list_item_padding"
+                    android:prompt="@string/order_pyament_type" />
+                
+                 <TextView
+                    android:id="@+id/order_printer"
+                    style="@style/Widget.Item.ListView.Label"
+                    android:layout_marginTop="7dip"
+                    android:text="@string/order_printer" />
+
+                <Spinner
+                    android:id="@+id/printer"
+                    style="@style/Widget.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/list_item_padding"
+                    android:prompt="@string/order_printer" />
+
+                <Button
+                    android:id="@+id/pay_btn"
+                    style="@style/Widget.Button.Main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_pay" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.xiaomi.xms.sales.widget.EmptyLoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="center" />
+
+</FrameLayout>

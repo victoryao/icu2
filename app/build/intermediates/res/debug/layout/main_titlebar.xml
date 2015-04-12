@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.TitleBar" >
+
+    <ImageView
+        android:id="@+id/title_bar_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/title_bar_back_button" />
+
+    <LinearLayout
+        android:id="@+id/title_right_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" >
+
+        <FrameLayout
+            android:id="@+id/title_bar_custom_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/quit"
+            >
+
+            <TextView
+                android:id="@+id/title_bar_shopping_count"
+                style="@style/TextAppearance.Small.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="6dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/quit"
+                android:gravity="center"
+                android:visibility="invisible" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/custom_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/title_bar_home"
+        android:layout_toLeftOf="@id/title_right_bar"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="@dimen/title_bar_padding" >
+
+        <TextView
+            android:id="@+id/title_bar_title"
+            style="@style/TextAppearance.Title.Bar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/main_titlebar.xml -->

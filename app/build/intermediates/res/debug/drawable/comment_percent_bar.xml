@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- set background, gray -->
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="0dip" />
+
+            <gradient
+                android:endColor="#ffe1e1e1"
+                android:startColor="#ffe1e1e1" />
+        </shape>
+    </item>
+
+    <!-- set foreground -->
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="0dip" />
+
+                <gradient
+                    android:endColor="#fffc7a00"
+                    android:startColor="#fffc7a00" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/drawable/comment_percent_bar.xml -->

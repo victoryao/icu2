@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.xms.sales.ui.CommentItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingBottom="4dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="4dip" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <RatingBar
+            android:id="@+id/comment_rating_bar"
+            style="@style/rating_bar_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true" />
+
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment_rating_bar"
+            android:layout_marginTop="3dip"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/comment_user"
+            style="@style/TextAppearance.Normal.Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/comment_content"
+            android:layout_marginTop="3dip"
+            android:gravity="left"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/comment_time"
+            style="@style/TextAppearance.Normal.Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment_content"
+            android:layout_marginTop="3dip"
+            android:layout_toRightOf="@id/comment_user"
+            android:gravity="left"
+            android:paddingLeft="10dip"
+            android:textSize="@dimen/text_size_normal" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/comment_item_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_line_gray"
+        android:contentDescription="@null" />
+
+</com.xiaomi.xms.sales.ui.CommentItem><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/comment_item.xml -->

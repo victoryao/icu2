@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/action_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/order_bottom_bg"
+        android:padding="10dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/order_fee_bottom"
+            style="@style/TextAppearance.Title.List"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_gravity="center"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip" />
+
+       <Spinner
+            android:id="@+id/do_type"
+            style="@style/Widget.Spinner"
+            android:entries="@array/doType"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dip"
+            />
+        <Spinner
+            android:id="@+id/add_info"
+            style="@style/Widget.Spinner"
+            android:entries="@array/add_info_array"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dip"
+            />
+       
+        <Button
+            android:id="@+id/pay_btn"
+            style="@style/Widget.Button.Main"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="@string/order_pay" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_above="@id/action_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/base_list_view" />
+
+    </LinearLayout>
+
+</RelativeLayout>

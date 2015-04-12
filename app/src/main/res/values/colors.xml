@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_text_color">#ff51545a</color>
+    <color name="primary_text_color_shadow">#ccffffff</color>
+    <color name="title_text_color_shadow">#80000000</color>
+    <color name="secondary_text_color">#ff87888c</color>
+    <color name="secondary_text_color_shadow">#80ffffff</color>
+    <color name="highlight_text_color">#fff05000</color>
+    <color name="percent_color">#ffff7e00</color>
+    <color name="hyperlinks_text_color">@android:color/white</color>
+    <color name="primary_text_color_inverse">#000000</color>
+    <color name="secondary_text_color_inverse">#ff87888c</color>
+    <color name="highlight_text_color_inverse">#ff87888c</color>
+    <color name="hyperlinks_text_color_inverse">#ff87888c</color>
+    <color name="link_text">#ff307ab3</color>
+    <color name="window_background">#ffebeced</color>
+    <color name="black_button_divider">#ff222222</color>
+    <color name="phone_media_background">#f3f3f3</color>
+    <color name="miphone_sales_record_detail_color">#ff9Acd32</color>
+    <color name="fake_search_background">#dadbdd</color>
+    <color name="green_title">#91b953</color>
+    <color name="deep_blue">#000099</color>
+    <color name="review_star_label_color">#ff666666</color>
+    <color name="review_hint_color">#ffcccccc</color>
+    <color name="michat_invation_color">#FF333333</color>
+    <color name="yellow">#FFFF66</color>
+
+    <!-- zxing -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="scan_bottom_background">#37393d</color>
+    <color name="scan_frame">#ff720a</color>
+
+</resources>

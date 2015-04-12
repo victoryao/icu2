@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/label_address_consignee"
+        style="@style/Widget.Item.ListView.Label"
+        android:text="@string/checkout_form_delivertime_titie" />
+
+    <RadioGroup
+        android:id="@+id/deliver_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/address_submit"
+        style="@style/Widget.Button.Main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:text="@string/order_edit_confirm" />
+</LinearLayout>

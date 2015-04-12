@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/product_money_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/order_view_body">
+
+        <include
+            android:id="@+id/top_line"
+            android:layout_marginTop="0dip"
+            android:layout_alignParentTop="true"
+            layout="@layout/horizontal_divider" />
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right"
+            android:text="@string/order_submit_product_money" />
+
+        <LinearLayout
+            android:id="@+id/vertical_bar1"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/title1"
+            android:layout_marginLeft="15dip"
+            android:background="@android:drawable/divider_horizontal_bright" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/vertical_bar1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:text="@string/order_list_rmb"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/product_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/shipment_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/order_view_body"
+        android:visibility="gone">
+
+        <include
+            android:id="@+id/top_line"
+            android:layout_marginTop="0dip"
+            android:layout_alignParentTop="true"
+            layout="@layout/horizontal_divider" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right"
+            android:text="@string/order_submit_shipment" />
+
+        <TextView
+            android:id="@+id/shipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right" />
+
+        <LinearLayout
+            android:id="@+id/vertical_bar2"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/title2"
+            android:layout_marginLeft="15dip"
+            android:background="@android:drawable/divider_horizontal_bright" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/vertical_bar2"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:text="@string/order_list_rmb"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/coupon_discount_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/order_view_body"
+        android:visibility="gone">
+
+        <include
+            android:id="@+id/top_line"
+            android:layout_marginTop="0dip"
+            android:layout_alignParentTop="true"
+            layout="@layout/horizontal_divider" />
+
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right"
+            android:text="@string/order_submit_coupon_discount" />
+
+        <TextView
+            android:id="@+id/coupon_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right" />
+
+        <LinearLayout
+            android:id="@+id/vertical_bar3"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/title3"
+            android:layout_marginLeft="15dip"
+            android:background="@android:drawable/divider_horizontal_bright" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/vertical_bar3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:text="@string/order_list_rmb"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_discount_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/order_view_body"
+        android:visibility="gone"
+        >
+
+        <include
+            android:id="@+id/top_line"
+            android:layout_marginTop="0dip"
+            android:layout_alignParentTop="true"
+            layout="@layout/horizontal_divider" />
+
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right"
+            android:text="@string/order_submit_activity_discount" />
+        
+        <LinearLayout
+            android:id="@+id/vertical_bar4"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/title4"
+            android:layout_marginLeft="15dip"
+            android:background="@android:drawable/divider_horizontal_bright" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/vertical_bar4"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:text="@string/order_list_rmb"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/activity_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right" />
+    </RelativeLayout>
+
+    
+    <RelativeLayout
+        android:id="@+id/moling_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/order_view_body">
+
+        <include
+            android:id="@+id/top_line"
+            android:layout_marginTop="0dip"
+            android:layout_alignParentTop="true"
+            layout="@layout/horizontal_divider" />
+
+       <TextView
+            android:id="@+id/title5"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right"
+            android:text="@string/order_submit_amount_moling" />
+
+        <LinearLayout
+            android:id="@+id/vertical_bar5"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/title5"
+            android:layout_marginLeft="15dip"
+            android:background="@android:drawable/divider_horizontal_bright" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/vertical_bar5"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:text="@string/order_list_rmb"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/moling_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            style="@style/TextAppearance.List.Secondary"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/amount_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height_single_line"
+        android:background="@drawable/order_view_body">
+
+        <include
+            android:id="@+id/top_line"
+            android:layout_marginTop="0dip"
+            android:layout_alignParentTop="true"
+            layout="@layout/horizontal_divider" />
+
+        <TextView
+            android:id="@+id/title6"
+            android:layout_width="85dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            style="@style/TextAppearance.List.Secondary"
+            android:textColor="@color/highlight_text"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right"
+            android:text="@string/order_submit_amount_title" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            style="@style/TextAppearance.List.Secondary"
+            android:textColor="@color/highlight_text"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="right" />
+
+        <LinearLayout
+            android:id="@+id/vertical_bar6"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/title6"
+            android:layout_marginLeft="15dip"
+            android:background="@android:drawable/divider_horizontal_bright" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/vertical_bar6"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:text="@string/order_list_rmb"
+            style="@style/TextAppearance.List.Secondary"
+            android:textColor="@color/highlight_text"
+            android:textSize="@dimen/text_size_medium" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/order_view_footer" >
+    </LinearLayout>
+</LinearLayout>

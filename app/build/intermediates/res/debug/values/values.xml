@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/add_info_array.xml -->
+    <eat-comment/>
+    <string-array name="add_info_array">
+         <item>@string/order_printer</item>
+         <item>@string/add_info_btn</item>
+         
+     </string-array>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/doarray.xml -->
+    <eat-comment/>
+    <string-array name="doType">
+         <item>@string/packed_redo</item>
+         <item>@string/order_view_fee_refund</item>
+     </string-array>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="email">
+        <item>126.com</item>
+        <item>163.com</item>
+        <item>qq.com</item>
+        <item>sina.com</item>
+        <item>sohu.com</item>
+        <item>gmail.com</item>
+        <item>hotmail.com</item>
+        <item>139.com</item>
+        <item>wo.com.cn</item>
+        <item>189.cn</item>
+        <item>xiaomi.com</item>
+        <item>其它</item>
+    </string-array>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/retruntypearray.xml -->
+    <eat-comment/>
+    <string-array name="exchangeType">
+         <item>@string/same_day_exchange_text</item>
+     </string-array>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="new_account_types">
+        <item>用本手机号码注册（推荐）</item>
+        <item>用邮箱注册</item>
+    </string-array>
+    <string-array name="pay_types">
+        <item>@string/pay_alipay</item>
+        <item>@string/pay_uppay</item>
+    </string-array>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/retruntypearray.xml -->
+    <eat-comment/>
+    <string-array name="returnType">
+         <item>@string/same_day_return_type</item>
+     </string-array>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="testerlist">
+        <item>9695715</item>
+        <item>264290625</item>
+        <item>164004419</item>
+        <item>124449</item>
+        <item>15507448</item>
+    </string-array>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black_button_divider">#ff222222</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="deep_blue">#000099</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="fake_search_background">#dadbdd</color>
+    <color name="green_title">#91b953</color>
+    <color name="highlight_text_color">#fff05000</color>
+    <color name="highlight_text_color_inverse">#ff87888c</color>
+    <color name="hyperlinks_text_color">@android:color/white</color>
+    <color name="hyperlinks_text_color_inverse">#ff87888c</color>
+    <color name="link_text">#ff307ab3</color>
+    <color name="michat_invation_color">#FF333333</color>
+    <color name="miphone_sales_record_detail_color">#ff9Acd32</color>
+    <color name="percent_color">#ffff7e00</color>
+    <color name="phone_media_background">#f3f3f3</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="primary_text_color">#ff51545a</color>
+    <color name="primary_text_color_inverse">#000000</color>
+    <color name="primary_text_color_shadow">#ccffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="review_hint_color">#ffcccccc</color>
+    <color name="review_star_label_color">#ff666666</color>
+    <color name="scan_bottom_background">#37393d</color>
+    <color name="scan_frame">#ff720a</color>
+    <color name="secondary_text_color">#ff87888c</color>
+    <color name="secondary_text_color_inverse">#ff87888c</color>
+    <color name="secondary_text_color_shadow">#80ffffff</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="title_text_color_shadow">#80000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="window_background">#ffebeced</color>
+    <color name="yellow">#FFFF66</color>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottom_tab_font_size">20.0dip</dimen>
+    <dimen name="bottom_tab_layout_marginTop">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+    <dimen name="bottom_tab_padding_left">1.0dip </dimen>
+    <dimen name="bottom_tab_padding_up">10.0dip </dimen>
+    <dimen name="title_text_size">18.0dip</dimen>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <item name="tag_checkout_pay_id" type="id">tag_checkout_pay_id</item>
+    <item name="tag_checkout_pickup_id" type="id">tag_checkout_pickup_id</item>
+    <item name="tag_checkout_shipment_id" type="id">tag_checkout_shipment_id</item>
+    <string name="access_denied">访问受限</string>
+    <string name="account">帐号</string>
+    <string name="account_addresslist">地址管理</string>
+    <string name="account_after_sale_order">售后服务单</string>
+    <string name="account_evaluate">我的评价</string>
+    <string name="account_exit">点击退出</string>
+    <string name="account_express_list">已付款订单</string>
+    <string name="account_hint_text">用户名</string>
+    <string name="account_login_primary_text">立即登录</string>
+    <string name="account_login_second_text">享受更多贴心服务</string>
+    <string name="account_my_address">管理地址</string>
+    <string name="account_my_aftermarket">售后服务单</string>
+    <string name="account_my_change_list">换货单</string>
+    <string name="account_my_end_list">已关闭订单</string>
+    <string name="account_my_info">我的个人信息</string>
+    <string name="account_my_list">我的订单</string>
+    <string name="account_my_order_list">订单查询</string>
+    <string name="account_my_refund_list">退款单</string>
+    <string name="account_my_repair_list">维修单</string>
+    <string name="account_my_reserve_list">预约服务单</string>
+    <string name="account_name">帐户:<ns1:g id="account">%1$s</ns1:g></string>
+    <string name="account_nfc_add_text">创建商品NFC标贴</string>
+    <string name="account_order_edit_text">修改订单</string>
+    <string name="account_secret">修改密码</string>
+    <string name="account_wait_pay_list">待付款订单</string>
+    <string name="account_wait_receive_list">待收货订单</string>
+    <string name="account_waiting_review">待评价商品</string>
+    <string name="account_write_review">评价商品</string>
+    <string name="acquaintance_more">查看更多</string>
+    <string name="act_coupon">[赠券]</string>
+    <string name="act_gift">[赠品]</string>
+    <string name="act_post_free">[免邮]</string>
+    <string name="act_reduction">[满减]</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_enter_home">进入首页</string>
+    <string name="adapt_phone">适用机型:</string>
+    <string name="add_address">新增地址</string>
+    <string name="add_info_btn">填写顾客信息</string>
+    <string name="add_info_submit">确认</string>
+    <string name="add_shopping_cart">加入购物车</string>
+    <string name="add_shopping_cart_fail">加入购物车失败</string>
+    <string name="add_shopping_cart_fail_reason_tomax">已到单品购买最大数量</string>
+    <string name="add_submit">确定</string>
+    <string name="address_adding">正在添加</string>
+    <string name="address_area">%1$s %2$s %3$s</string>
+    <string name="address_city_select">选择市</string>
+    <string name="address_del">删除</string>
+    <string name="address_deling">正在删除</string>
+    <string name="address_district_select">选择区</string>
+    <string name="address_edit">编辑</string>
+    <string name="address_err">操作失败，请稍后再试！</string>
+    <string name="address_list_del_ask">你确认要删除这个地址吗？</string>
+    <string name="address_location">%1$s (%2$s)</string>
+    <string name="address_ok">地址已删除</string>
+    <string name="address_province_select">选择省</string>
+    <string name="address_saving">正在保存</string>
+    <string name="address_title">%1$s %2$s</string>
+    <string name="address_use">使用</string>
+    <string name="allphone">全部机型</string>
+    <string name="already_add_shopping_cart">已加入购物车</string>
+    <string name="app_name">欢迎使用智能化谵妄评估系统</string>
+    <string name="app_short_name">谵妄评估</string>
+    <string name="auth_error">登陆帐号已过期，请重新登陆</string>
+    <string name="autologin_ask_cancel">换个帐号</string>
+    <string name="autologin_ask_ok">确认使用</string>
+    <string name="autologin_summary">检测到您正在使用小米帐号“<ns1:g id="id">%1$s</ns1:g>”，是否使用此帐号登录？</string>
+    <string name="autologin_title">使用系统帐号登录</string>
+    <string name="back_to_detail">返回</string>
+    <string name="bad_authentication">用户名密码不匹配</string>
+    <string name="begin_test">进行测试</string>
+    <string name="bluetooth_close_btn">蓝牙设置</string>
+    <string name="bluetooth_close_info">设备蓝牙没有打开，请先在设置中打开蓝牙开关</string>
+    <string name="bluetooth_connect_error_info">连接失败，请稍后重试！</string>
+    <string name="bluetooth_connect_title">连接POS设备</string>
+    <string name="bluetooth_list_empty">周围没有发现可用的蓝牙设备</string>
+    <string name="bluetooth_merchant_name">商户名称</string>
+    <string name="bluetooth_paired_list_info">已配对的蓝牙设备列表</string>
+    <string name="bluetooth_pos_fee">支付总额</string>
+    <string name="bluetooth_pos_name">POS机名</string>
+    <string name="bluetooth_pos_reprint">重新打印</string>
+    <string name="bluetooth_pos_resign">重新签到</string>
+    <string name="bluetooth_pos_submit">确认付款</string>
+    <string name="bluetooth_search_info">搜索设备</string>
+    <string name="bluetooth_search_list_info">周围可用的蓝牙设备列表</string>
+    <string name="btn_fcode_buy">F码购买</string>
+    <string name="btn_immediately_buy">立即购买</string>
+    <string name="btn_immediately_reservation">立即预约</string>
+    <string name="button_delete">删除</string>
+    <string name="button_ok">确定</string>
+    <string name="cam_icu_title">CAM-ICU</string>
+    <string name="can_buy_max_count">数量</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_update">取消</string>
+    <string name="cartitem_title_bargin_template">[加价购]%1$s</string>
+    <string name="category_default_name">分类</string>
+    <string name="channel_id">1.1.1</string>
+    <string name="check_network">查看网络设置</string>
+    <string name="checkcode_dialog_title">请输入验证码</string>
+    <string name="checkcode_not_empty">验证码不能为空，请重新输入</string>
+    <string name="checking_update">正在检查更新...</string>
+    <string name="checkout_activity_title">结算页面</string>
+    <string name="checkout_build_request_params_exception">获取表单数据异常</string>
+    <string name="checkout_button_add_address">添加地址</string>
+    <string name="checkout_button_change_address">更换地址</string>
+    <string name="checkout_company_invoice">单位发票</string>
+    <string name="checkout_form_address_empty">请选择收货地址</string>
+    <string name="checkout_form_address_titie">收货信息</string>
+    <string name="checkout_form_delivertime_titie">送货时间</string>
+    <string name="checkout_form_hint">温馨提示</string>
+    <string name="checkout_form_invoice_edit_title">单位名称</string>
+    <string name="checkout_form_invoice_titie">发票信息</string>
+    <string name="checkout_form_invoice_title_input_pleases">请填写单位发票信息</string>
+    <string name="checkout_form_payment_titie">支付方式</string>
+    <string name="checkout_form_shipment_titie">配送方式</string>
+    <string name="checkout_next">下一步</string>
+    <string name="checkout_no_invoice">不开发票</string>
+    <string name="checkout_personal_invoice">个人发票</string>
+    <string name="checkout_set_form_data_exception">填写数据异常</string>
+    <string name="city">市</string>
+    <string name="combo_choice_product">定制部分单品</string>
+    <string name="combo_detail">套装详情</string>
+    <string name="comment">评价 (%d)</string>
+    <string name="comment_bad">差评</string>
+    <string name="comment_general">中评</string>
+    <string name="comment_good">好评</string>
+    <string name="comment_good_label">好评度</string>
+    <string name="comment_none_tip1">买过的用户就能发表评价</string>
+    <string name="comment_none_tip2">前5名评价的用户还能获得5元代金券哦</string>
+    <string name="comment_percent">(%d%%)</string>
+    <string name="completed">完成</string>
+    <string name="confirm">确定</string>
+    <string name="coupon_use_title">使用优惠券</string>
+    <string name="currency_unit_template">金额合计: ¥%1$s</string>
+    <string name="data_error">数据出错，请稍后重试</string>
+    <string name="delete_cart_excption">删除商品异常</string>
+    <string name="deliver_grade">物流配送</string>
+    <string name="deliver_title_info">发货单%s</string>
+    <string name="deliver_view_orderid">订单编号：%s</string>
+    <string name="dialog_ask_cancel">放弃</string>
+    <string name="dialog_ask_ok">确认</string>
+    <string name="district">区</string>
+    <string name="doing_add_shopping_cart">正在加入购物车...</string>
+    <string name="doing_operation_pos">正在处理…</string>
+    <string name="doing_payment_pos">正在支付…</string>
+    <string name="download_err">下载失败，请检查网络</string>
+    <string name="download_failed_id"/>
+    <string name="download_failed_tips">点击查看</string>
+    <string name="download_failed_title">小米零售下载失败</string>
+    <string name="download_uppay_no_sd">无法下载银联支付控件，请检查SD卡是否可用</string>
+    <string name="edit_cart_item_activity_title">修改购物车</string>
+    <string name="edit_cart_item_button_delete">删除</string>
+    <string name="edit_cart_item_button_return">返回购物车</string>
+    <string name="edit_cart_item_error">购物车修改失败</string>
+    <string name="email_symbol">\@</string>
+    <string name="empty_product">请等待加载完毕再滑动...</string>
+    <string name="error_alipay_security">支付宝服务异常，请稍后再试</string>
+    <string name="error_dup_email">该邮箱已被注册</string>
+    <string name="error_dup_phone">该电话号码已被注册</string>
+    <string name="error_loading_account_info">加载用户信息失败</string>
+    <string name="error_network">当前网络不可用</string>
+    <string name="error_no_sim">无SIM卡，请插入SIM卡后再注册</string>
+    <string name="error_no_sms_service">短信服务不可用</string>
+    <string name="error_server">服务器出错</string>
+    <string name="error_timeout">服务器连接超时</string>
+    <string name="error_unknown">未知错误:<ns1:g id="code">%1$s</ns1:g></string>
+    <string name="error_uppay_security">银联服务异常，请稍后再试</string>
+    <string name="exchange_dialog_ask_ok">请确保良品然后确认</string>
+    <string name="exchange_done">换货完成</string>
+    <string name="exchange_operation_name_title">选择操作</string>
+    <string name="exit_on_the_second_back_key_pressed">再按一次退出小米零售</string>
+    <string name="failed_to_send_activate_email">发送激活邮件失败</string>
+    <string name="fcode_buy">F码购买</string>
+    <string name="fcode_buy_please_login">使用F码购买前，请先登陆</string>
+    <string name="fcode_change">换一张</string>
+    <string name="fcode_select_err">接口参数错误</string>
+    <string name="fcode_submit">提交</string>
+    <string name="fcode_text">谁会有F码？\n我们把F码发放给以下论坛资深用户：\n1.小米论坛的版主们、顾问团、资源组成员、同城会会长\n2.MIUI论坛的版主们、荣誉开发组、资源组、主题创意组和粉丝站长组的成员</string>
+    <string name="fcode_title">F码购买通道</string>
+    <string name="fcode_vcode_err">验证码输入有误，请重新输入</string>
+    <string name="fcode_vcode_fetch_err">拉取验证码失败，请稍后再试</string>
+    <string name="fcode_verify_fcode_err">F码有误，请重新输入</string>
+    <string name="fcode_waiting">正在验证，请稍等...</string>
+    <string name="filter_all">（全部）</string>
+    <string name="filter_comment">关注度</string>
+    <string name="filter_default">默认</string>
+    <string name="filter_is_null">没有与您筛选内容相符的产品，请重新筛选</string>
+    <string name="filter_price">价位</string>
+    <string name="filter_time">最新上架</string>
+    <string name="forget_password"><u>忘记密码</u></string>
+    <string name="goto_cart_btn_text">前往购物车</string>
+    <string name="goto_cart_title">商品已加入购物车</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hinit_sn">SN</string>
+    <string name="hint_address_consignee">请填写真实姓名</string>
+    <string name="hint_address_location">路名或街道地址，门牌号，不少于5个字</string>
+    <string name="hint_address_tel">联系人电话，11位数字</string>
+    <string name="hint_address_zipcode">为6位数字</string>
+    <string name="hint_email">请填写邮箱地址</string>
+    <string name="hint_email_domain">请填写邮箱后缀</string>
+    <string name="home_footer_text">点击或向左滑动查看更多配件</string>
+    <string name="home_full_screen_appear_summary">您正在使用数据流量，大图模式会耗费更多流量，请尽量在WIFI模式下使用</string>
+    <string name="home_full_screen_appear_title">将要进入横屏大图模式</string>
+    <string name="home_full_screen_discard">放弃</string>
+    <string name="home_full_screen_use">继续使用</string>
+    <string name="home_product_origin_price_format">原价¥%1$s</string>
+    <string name="home_product_price_format">¥%1$s</string>
+    <string name="home_product_spec_price_format">特价 ¥%1$s</string>
+    <string name="icu_action_n1">控制病情，解除病因</string>
+    <string name="icu_action_n2">做好药物治疗的监测</string>
+    <string name="icu_action_n3">减量或停用相应药品</string>
+    <string name="icu_find_patient_title">查找病人</string>
+    <string name="immediately_buy">立即购买</string>
+    <string name="immediately_update">立即更新</string>
+    <string name="incast_balance_template">还有%1$s元即可免邮，看看凑单商品</string>
+    <string name="incast_product">凑单商品</string>
+    <string name="input_fcode">请输入F码</string>
+    <string name="input_password_hint">请输入帐户密码</string>
+    <string name="input_sn_hint">请输入SN：</string>
+    <string name="input_vcode">请输入验证码</string>
+    <string name="instruction">指导语</string>
+    <string name="ip_error">IP地址不合法，请选择正确的Wifi</string>
+    <string name="label_address">收货地址</string>
+    <string name="label_address_consignee">收货人姓名</string>
+    <string name="label_address_tel">手机号码</string>
+    <string name="label_address_zipcode">邮政编码</string>
+    <string name="login">登录</string>
+    <string name="login_again">重新登陆</string>
+    <string name="login_before_check_shopping_cart">查看购物车前，请先登录</string>
+    <string name="login_before_op_shopping_cart">将商品加入购物车前，请先登录</string>
+    <string name="login_before_order_list">查看订单前，请先登录</string>
+    <string name="login_before_register_sale_out_product">订阅通知前，请先登录</string>
+    <string name="login_err">登录失败，请检查帐号!</string>
+    <string name="login_failed">登录失败</string>
+    <string name="login_notice">登录中，请稍候</string>
+    <string name="login_ok">登录成功，欢迎回来!</string>
+    <string name="login_retry">重试</string>
+    <string name="login_system_failed">系统帐号登录失败，请重试！</string>
+    <string name="login_unactive">帐号未激活，请检查您的注册邮箱！</string>
+    <string name="logout">退出登录</string>
+    <string name="logout_ok">已登出！</string>
+    <string name="logout_summary">确定要注销该帐号吗？</string>
+    <string name="logout_title">注销帐号</string>
+    <string name="lottery_no_login">参加活动前，请先登录</string>
+    <string name="maybe_interested">您可能感兴趣</string>
+    <string name="menu_orders">订单</string>
+    <string name="menu_printagain">重新打印</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_switch_formal">切换到正式(重启生效)</string>
+    <string name="menu_switch_test">切换到测试(重启生效)</string>
+    <string name="menu_update">检查更新</string>
+    <string name="menu_uploadfile">上传日志</string>
+    <string name="menu_url">输入网址</string>
+    <string name="mi1">1</string>
+    <string name="mi1s">1S</string>
+    <string name="mi2">2</string>
+    <string name="mi2a">2A</string>
+    <string name="mi2s">2S</string>
+    <string name="mi_box">盒子</string>
+    <string name="micloud_account">小米帐户</string>
+    <string name="micloud_account_label">小米帐户:<ns1:g id="name">%1$s</ns1:g></string>
+    <string name="micloud_account_name">小米帐户</string>
+    <string name="micloud_active_email_sent_1">我们已向您的邮箱</string>
+    <string name="micloud_active_email_sent_2">发送了一封验证邮件</string>
+    <string name="micloud_active_sms_sent">注册短信已经发出</string>
+    <string name="micloud_active_sms_status_fail">注册失败</string>
+    <string name="micloud_active_sms_status_network">网络链接失败</string>
+    <string name="micloud_active_sms_status_success">注册成功</string>
+    <string name="micloud_active_sms_status_wait">请稍等…</string>
+    <string name="micloud_click_email">点击邮件中的链接就可以激活您的\n小米账户</string>
+    <string name="micloud_email">邮箱地址</string>
+    <string name="micloud_error_email">邮箱格式不正确</string>
+    <string name="micloud_error_empty_pwd">密码不能为空</string>
+    <string name="micloud_error_empty_username">用户名不能为空</string>
+    <string name="micloud_error_illegal_pwd">密码格式错误</string>
+    <string name="micloud_input_email_prompt">请输入您的邮箱地址</string>
+    <string name="micloud_input_password_prompt">请设置帐户密码</string>
+    <string name="micloud_log_prompt">请登录您的小米帐户</string>
+    <string name="micloud_password_confirm_hint">再次确认密码</string>
+    <string name="micloud_password_error_inconsistent">密码不一致</string>
+    <string name="micloud_password_req_notice">您的密码长度必须为8－16字符，且必须包含一个数字、一个字母。可以使用特殊符号，字母区分大小写。</string>
+    <string name="micloud_reg_new"><u>注 册</u></string>
+    <string name="micloud_use_existing">登录</string>
+    <string name="micloud_use_sys">使用系统帐户登录</string>
+    <string name="micloud_val_sms_alert">系统将发送一条验证短信，是否继续？</string>
+    <string name="micloud_welcome_banner">小米帐户</string>
+    <string name="mihome_already_checkin">今天已签到</string>
+    <string name="mihome_buy_no_login">扫描前请先登陆</string>
+    <string name="mihome_check_btn">立即签到</string>
+    <string name="mihome_check_count">%s人来过</string>
+    <string name="mihome_checkin_success">签到成功</string>
+    <string name="mihome_sacn_buy_btn">扫码小米零售</string>
+    <string name="mihome_shopping_cart">小米零售 购物车</string>
+    <string name="miphone_none_stock">暂时缺货</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="msg_default_status">请将条码置于取景框内扫描。</string>
+    <string name="network_error">网络不给力</string>
+    <string name="network_unavaliable">无法获取数据，请检查网络设置</string>
+    <string name="next">下一步</string>
+    <string name="nfc_hint_info">请将手机背面贴近商品NFC标签</string>
+    <string name="nfc_product_write_button_info">写入商品信息</string>
+    <string name="nfc_product_write_success_info">商品信息写入成功</string>
+    <string name="nfc_title">读取商品NFC标签</string>
+    <string name="no_nfc">该设备不支持NFC</string>
+    <string name="no_update">已经是最新版本</string>
+    <string name="none_stock">暂时缺货</string>
+    <string name="number_test">数字法</string>
+    <string name="number_test_n1">6</string>
+    <string name="number_test_n10">7</string>
+    <string name="number_test_n2">8</string>
+    <string name="number_test_n3">5</string>
+    <string name="number_test_n4">9</string>
+    <string name="number_test_n5">8</string>
+    <string name="number_test_n6">3</string>
+    <string name="number_test_n7">8</string>
+    <string name="number_test_n8">8</string>
+    <string name="number_test_n9">4</string>
+    <string name="number_test_summary_answer1">&lt;3</string>
+    <string name="number_test_summary_answer2">>=3</string>
+    <string name="number_test_summary_title">错几个?</string>
+    <string name="number_test_title">跟患者说：“我要给您读10个数字，任何时候当您听到数字8，就给我一个指示。”</string>
+    <string name="open_nfc">NFC功能没打开，请打开</string>
+    <string name="order_add_time">下单日期</string>
+    <string name="order_add_title">填写个人信息</string>
+    <string name="order_ask_cancel">您确认要取消订单吗？</string>
+    <string name="order_asyning">同步中…</string>
+    <string name="order_cancel">订单已取消</string>
+    <string name="order_cancel_err">取消订单失败，请您稍后再试</string>
+    <string name="order_canceling">正在取消订单...</string>
+    <string name="order_code_sent">验证码已发送</string>
+    <string name="order_code_sent_error">验证码发送失败，请稍后重试</string>
+    <string name="order_date_format">%-Y-%-m-%-d</string>
+    <string name="order_deliver_id">发货单编号：%s</string>
+    <string name="order_deliver_info">(拆分%s单)</string>
+    <string name="order_deliver_status">发货单状态：%s</string>
+    <string name="order_deliver_tip">* 您的商品不能由同一个发货单发货，因此被拆分成多个发货单，所产生的额外费用由小米商城承担</string>
+    <string name="order_delivery_time">送货时间:</string>
+    <string name="order_detail_address">收货地址:</string>
+    <string name="order_detail_title">订单详情</string>
+    <string name="order_edit_address_title">修改地址</string>
+    <string name="order_edit_code_not_null">验证码不能为空</string>
+    <string name="order_edit_confirm">确认修改</string>
+    <string name="order_edit_deliver_time_title">修改送货时间</string>
+    <string name="order_edit_detail_title">个人信息</string>
+    <string name="order_edit_email_domain_empty_info">请输入邮箱后缀</string>
+    <string name="order_edit_email_empty_info">邮箱不能为空</string>
+    <string name="order_edit_email_error_info">邮箱地址格式不正确</string>
+    <string name="order_edit_error">修改失败，请稍后再试</string>
+    <string name="order_edit_hint">修改订单将因重新分配物流而影响发货时间</string>
+    <string name="order_edit_invoice_empty_info">单位名称不能为空</string>
+    <string name="order_edit_list_title">选择订单</string>
+    <string name="order_edit_name_empty_info">姓名不能为空</string>
+    <string name="order_edit_name_tel_hint">请输入原手机号 %s 以验证身份</string>
+    <string name="order_edit_name_title">修改姓名</string>
+    <string name="order_edit_ok">操作成功</string>
+    <string name="order_edit_prompt">*为了确保购物安全,我们需要验证该订单的手机号</string>
+    <string name="order_edit_prompt_message">短信验证码将发送至：%s</string>
+    <string name="order_edit_receive_address">%1$s %2$s %3$s %4$s</string>
+    <string name="order_edit_receive_info">收货信息</string>
+    <string name="order_edit_receive_time">送货时间</string>
+    <string name="order_edit_secure_title">安全验证</string>
+    <string name="order_edit_submit">提交</string>
+    <string name="order_edit_tel_empty_info">电话不能为空</string>
+    <string name="order_edit_tel_error">原收货手机号码不正确</string>
+    <string name="order_edit_tel_error_info">电话格式不正确</string>
+    <string name="order_edit_tel_not_null">手机号码不能为空</string>
+    <string name="order_edit_tel_title">修改电话</string>
+    <string name="order_edit_title">修改个人信息</string>
+    <string name="order_edit_type_title">修改订单信息</string>
+    <string name="order_erification_code">请输入短信验证码</string>
+    <string name="order_err">订单状态异常</string>
+    <string name="order_express_empty">暂时还没有物流信息，请稍后再来</string>
+    <string name="order_express_info">物流信息</string>
+    <string name="order_express_list_sn_label">快递单号 %s</string>
+    <string name="order_express_name_label">物流公司 %s</string>
+    <string name="order_express_sn_label">快递单号</string>
+    <string name="order_express_title">物流查询</string>
+    <string name="order_fee">金额合计:</string>
+    <string name="order_fee_subtotal_text">商品总价：¥%s</string>
+    <string name="order_id">订单编号:</string>
+    <string name="order_information">订单信息</string>
+    <string name="order_invoice_empty_info">发票信息不能为空</string>
+    <string name="order_invoice_info">发票信息:</string>
+    <string name="order_invoice_information">发票信息</string>
+    <string name="order_list_empty">您还没有该类型的订单</string>
+    <string name="order_list_fee">总价:</string>
+    <string name="order_list_id">编号:</string>
+    <string name="order_list_rmb">¥</string>
+    <string name="order_list_status">状态:</string>
+    <string name="order_list_time">订单日期</string>
+    <string name="order_list_time_format">yyyy-MM-dd</string>
+    <string name="order_list_title">订单列表</string>
+    <string name="order_modify">修改订单</string>
+    <string name="order_paid_not_asyn_yet">查询支付结果</string>
+    <string name="order_pay">立即付款</string>
+    <string name="order_pay_state_failed">%s 支付失败</string>
+    <string name="order_pay_state_success">%s 支付成功</string>
+    <string name="order_pay_state_unknown">服务异常，%s 订单状态未知，请稍后重试</string>
+    <string name="order_pickup_address">自提地址</string>
+    <string name="order_pickup_tel">联系电话</string>
+    <string name="order_printer">选择打印机</string>
+    <string name="order_product_bottom">小计:¥%1$s</string>
+    <string name="order_product_center">售价:¥%1$s 数量:%2$s 小计:¥%3$s</string>
+    <string name="order_pyament_type">支付方式</string>
+    <string name="order_recipient">收货人称:</string>
+    <string name="order_recipient_phone">手机号码:</string>
+    <string name="order_refund">申请退款成功</string>
+    <string name="order_refund_err">申请退款失败，请您稍后再试</string>
+    <string name="order_retransmission_submit">%s秒后再次发送</string>
+    <string name="order_see_express">查看物流</string>
+    <string name="order_send_message_submit">发送验证码</string>
+    <string name="order_status_alread_finish">已收货</string>
+    <string name="order_submit">确定</string>
+    <string name="order_submit_activity_discount">优惠金额</string>
+    <string name="order_submit_amount_moling">抹零金额</string>
+    <string name="order_submit_amount_title">应付总额</string>
+    <string name="order_submit_button_return">返回修改</string>
+    <string name="order_submit_button_submit">提交订单</string>
+    <string name="order_submit_button_submit_n">正在提交...</string>
+    <string name="order_submit_count_descrption_template">商品总价 ¥%1$s + 配送费 ¥%2$s - 优惠券 ¥%3$s</string>
+    <string name="order_submit_count_title">商品总数</string>
+    <string name="order_submit_coupon_discount">优惠卷</string>
+    <string name="order_submit_example_title_format">订单预览，订单号:%1$s</string>
+    <string name="order_submit_exception_make_order_template">生成订单成功，订单号 :%1$s</string>
+    <string name="order_submit_exception_return_result">返回结果异常</string>
+    <string name="order_submit_exception_send_data">发送数据失败</string>
+    <string name="order_submit_pay">应付总额: ¥%1$s</string>
+    <string name="order_submit_product_money">商品价格</string>
+    <string name="order_submit_shipment">运送费</string>
+    <string name="order_submit_shipment_title">运费</string>
+    <string name="order_submit_title">订单预览</string>
+    <string name="order_table_payment">订单信息</string>
+    <string name="order_table_unpayment">订单提交成功，请尽快支付</string>
+    <string name="order_time_format">%Y-%-m-%-d %-H:%-M:%-S</string>
+    <string name="order_user_info_exit_dialog_ask_ok">好的，我知道了</string>
+    <string name="order_user_info_exit_dialog_message">为了订单打印和商品出库，请填写个人信息</string>
+    <string name="order_user_info_exit_dialog_title">温馨提示</string>
+    <string name="order_view_address">%1$s %2$s %3$s %4$s\n%5$s %6$s</string>
+    <string name="order_view_address_label">收货地址</string>
+    <string name="order_view_address_time">%1$s</string>
+    <string name="order_view_address_time_label">收货时间</string>
+    <string name="order_view_address_title">收货信息</string>
+    <string name="order_view_fee">应付总额：¥%s</string>
+    <string name="order_view_fee_2line">应付总额：\n¥%s</string>
+    <string name="order_view_fee_paied">已付总额：¥%s</string>
+    <string name="order_view_fee_refund">申请退款</string>
+    <string name="order_view_id">订单编号</string>
+    <string name="order_view_info">订单详情</string>
+    <string name="order_view_payment_refno_text">付款编号</string>
+    <string name="order_view_payment_time_text">付款时间</string>
+    <string name="order_view_pickup_person_text">提货信息</string>
+    <string name="order_view_status">订单状态：%s</string>
+    <string name="order_view_status_track">  %1$s %2$s</string>
+    <string name="order_view_user_email">客户邮箱</string>
+    <string name="order_view_user_name">客户姓名</string>
+    <string name="order_view_user_tel">客户电话</string>
+    <string name="packed_redo">再次配货</string>
+    <string name="pakced_error">配货失败</string>
+    <string name="password">密码</string>
+    <string name="password_hint_text">6~16位字符</string>
+    <string name="patient_add_time">入院时间</string>
+    <string name="patient_age">年龄</string>
+    <string name="patient_bedid">床号</string>
+    <string name="patient_department">科室</string>
+    <string name="patient_diagnose">诊断</string>
+    <string name="patient_gender">性别</string>
+    <string name="patient_id_null_warning">病人编号不能为空，请正确输入</string>
+    <string name="pay_alipay">支付宝</string>
+    <string name="pay_cash">现金支付</string>
+    <string name="pay_cash_title">现金支付</string>
+    <string name="pay_pos">POS机</string>
+    <string name="pay_uppay">银联支付</string>
+    <string name="payment_cash_btn">确认付款</string>
+    <string name="payment_fail">支付失败</string>
+    <string name="payment_fail_explain">查看支付常见问题</string>
+    <string name="payment_fail_text">支付失败，您可以查看在线支付常见问题以确认原因。</string>
+    <string name="payment_in_progress">正在支付...</string>
+    <string name="payment_pickup_address">自提地址:</string>
+    <string name="payment_pickup_tel">联系电话:</string>
+    <string name="payment_pos_error_info">支付失败，请重试！</string>
+    <string name="payment_pos_error_needsigin_info">支付失败，需要签到。请在签到成功后重试！</string>
+    <string name="payment_pos_error_no_paper_info">纸张不足，打印购物小票失败！请放入纸张后重新打印！</string>
+    <string name="payment_pos_error_sigin">签到失败，请在签到成功后重试！</string>
+    <string name="payment_pos_success">支付成功</string>
+    <string name="payment_pos_title">POS支付</string>
+    <string name="payment_server_error_info1">付款成功，但通知服务器失败，原因：%1$s！请您妥善保管好购物小票，以便查询！</string>
+    <string name="payment_server_error_info2">付款成功，但由于网络原因导致通知服务器失败，请您妥善保管好购物小票，以便查询！</string>
+    <string name="payment_success">支付成功</string>
+    <string name="payment_view_pickup_person_text">提货信息:</string>
+    <string name="percent_sign">%</string>
+    <string name="pic_view_format">%1$s"/"%2$s</string>
+    <string name="picture_test">图片法</string>
+    <string name="picture_test_begin">开始</string>
+    <string name="picture_test_check">选择</string>
+    <string name="picture_test_end">提交</string>
+    <string name="please_choose">请选择</string>
+    <string name="please_login">购买前，请先登陆</string>
+    <string name="pref_title_category_about">关于</string>
+    <string name="pref_title_check_version">检查更新</string>
+    <string name="pref_title_userinfo">个人信息</string>
+    <string name="pref_title_userinfo_mihome_name">米家：</string>
+    <string name="pref_title_userinfo_miliao">米聊：</string>
+    <string name="pref_title_userinfo_name">姓名：</string>
+    <string name="pref_title_version">当前版本:%s</string>
+    <string name="prev">上一步</string>
+    <string name="print_again_error">Pos未连接，请重新连接</string>
+    <string name="printer_error">打印失败</string>
+    <string name="printer_select">选择打印机</string>
+    <string name="product_detail">商品详情</string>
+    <string name="product_detail_empty">非常抱歉，暂无此商品信息！</string>
+    <string name="product_find_1d_text">条形码查找商品</string>
+    <string name="product_find_nfc_text">库存销售</string>
+    <string name="product_info">商品信息</string>
+    <string name="product_shopping_cart">购物车</string>
+    <string name="province">省</string>
+    <string name="purcharser_error_product_id">无效的产品</string>
+    <string name="purcharser_return">返回首页</string>
+    <string name="purcharser_select_package">选择套装</string>
+    <string name="purcharser_select_reserve">选择预约套餐</string>
+    <string name="purcharser_to_order">查看订单</string>
+    <string name="quality_grade">产品质量</string>
+    <string name="rass_test_1">攻击性（好斗、暴力行为）-好斗行为、暴力行为，当下就对工作人员构成危险</string>
+    <string name="rass_test_10">不可叫醒（任何刺激无反应）-对声音或身体刺激均无反应</string>
+    <string name="rass_test_11">无上述情况</string>
+    <string name="rass_test_2">极度躁动（拉扯、拔除管路）-拉扯或拔除各种管道或插管;具有攻击性</string>
+    <string name="rass_test_3">躁动（无目的动作、抵抗）-频繁的无目的动作，与呼吸机抵抗</string>
+    <string name="rass_test_4">烦躁不安（焦虑、恐惧）-焦虑、恐惧、动作不具攻击性</string>
+    <string name="rass_test_5">清醒平静（主动注意照顾者）-主动注意照顾者</string>
+    <string name="rass_test_6">嗜睡（睁眼有眼睛接触>10s）-非完全清醒状态，但声音刺激后能够维持清醒状态（睁眼有眼睛接触>10s）</string>
+    <string name="rass_test_7">轻度镇静（眼睛接触&lt;10s）-声音刺激后能维持短暂清醒状态（睁眼和眼睛接触&lt;10s）</string>
+    <string name="rass_test_8">中度镇静（眼睛无接触）-声音刺激后有活动或睁眼反应（但无眼睛接触）</string>
+    <string name="rass_test_9">深度镇静（身体刺激有反应）-对声音刺激无反应，但身体刺激后有活动或睁眼</string>
+    <string name="rass_test_title">题目</string>
+    <string name="recommend_label">买过此商品的用户还喜欢</string>
+    <string name="refund_summary">确定要申请退款吗？</string>
+    <string name="refund_title">申请退款</string>
+    <string name="reg_by_email_failure">注册失败:<ns1:g id="reason">%1$s</ns1:g></string>
+    <string name="reg_failed">注册失败</string>
+    <string name="repair_list_item">商品:</string>
+    <string name="repair_progress_date_format">yyyy年MM月dd日</string>
+    <string name="repair_progress_date_format_deafault">yyyy-MM-dd HH:mm:ss</string>
+    <string name="replace">换成这个</string>
+    <string name="return_amount_text">支付总额:</string>
+    <string name="return_asyninfo">重新同步退货信息</string>
+    <string name="return_cancel">交易撤销</string>
+    <string name="return_choice_bad">影响二次销售</string>
+    <string name="return_choice_good">包装完好，不影响二次销售</string>
+    <string name="return_goods_status">商品状态</string>
+    <string name="return_merchant_name_text">商户名称:</string>
+    <string name="return_operation_name_title">选择操作</string>
+    <string name="return_order_confirm_title">消费撤销订单信息，请确认</string>
+    <string name="return_order_date_text">下单日期:</string>
+    <string name="return_order_id_text">订单编号:</string>
+    <string name="return_pos_name_text">POS机名:</string>
+    <string name="return_repeal">此订单已经撤销成功，但未与后台同步信息，正在为您同步…</string>
+    <string name="return_resend">操作异常，请重新点击</string>
+    <string name="return_returning">正在撤销退货…</string>
+    <string name="return_sending">提交中…</string>
+    <string name="return_success">此订单已经撤销成功，不能重复撤销</string>
+    <string name="review_arrive_time">收货时间:</string>
+    <string name="review_list_empty">您没有需要评价的商品</string>
+    <string name="review_list_title">待评价商品</string>
+    <string name="review_sell_price">售价:¥%s</string>
+    <string name="review_submit">提交评价</string>
+    <string name="review_submit_error">提交失败</string>
+    <string name="review_submit_ok">提交成功</string>
+    <string name="review_submit_tip">请至少写5个字</string>
+    <string name="risk_disease_n1">呼吸系统疾病</string>
+    <string name="risk_disease_n10">高淀粉酶血症</string>
+    <string name="risk_disease_n11">尿素氮升高</string>
+    <string name="risk_disease_n12">低纳血症</string>
+    <string name="risk_disease_n2">低血压</string>
+    <string name="risk_disease_n3">糖尿病</string>
+    <string name="risk_disease_n4">感染</string>
+    <string name="risk_disease_n5">发热</string>
+    <string name="risk_disease_n6">贫血</string>
+    <string name="risk_disease_n7">APACHE II</string>
+    <string name="risk_disease_n8">低钙血症</string>
+    <string name="risk_disease_n9">肝脏酶升高</string>
+    <string name="risk_environment_n1">精神活性药物的使用</string>
+    <string name="risk_environment_n2">眨眼剥夺</string>
+    <string name="risk_environment_n3">谵妄前使用约束</string>
+    <string name="risk_patient_n1">酒精滥用</string>
+    <string name="risk_patient_n10">性别</string>
+    <string name="risk_patient_n11">吸烟</string>
+    <string name="risk_patient_n12">中风史</string>
+    <string name="risk_patient_n2">药物滥用</string>
+    <string name="risk_patient_n3">认知障碍</string>
+    <string name="risk_patient_n4">听力障碍</string>
+    <string name="risk_patient_n5">视力障碍</string>
+    <string name="risk_patient_n6">头部创伤</string>
+    <string name="risk_patient_n7">精神病史</string>
+    <string name="risk_patient_n8">MMSE&lt;20</string>
+    <string name="risk_patient_n9">年龄>65</string>
+    <string name="risk_treatment_n1">机械通气</string>
+    <string name="risk_treatment_n10">心脏瓣膜手术</string>
+    <string name="risk_treatment_n11">心脏联合手术</string>
+    <string name="risk_treatment_n12">术后房颤</string>
+    <string name="risk_treatment_n2">腹部手术</string>
+    <string name="risk_treatment_n3">胸部手术</string>
+    <string name="risk_treatment_n4">镇静剂</string>
+    <string name="risk_treatment_n5">用药物导致的昏迷</string>
+    <string name="risk_treatment_n6">精神活性物质史</string>
+    <string name="risk_treatment_n7">麻醉剂</string>
+    <string name="risk_treatment_n8">类固醇激素</string>
+    <string name="risk_treatment_n9">手术时间大于3小时</string>
+    <string name="rmb_identification">¥%1$s</string>
+    <string name="rmb_negative_id">-%1$s</string>
+    <string name="sale_out_register">暂时缺货，到货通知我</string>
+    <string name="sale_out_register_des">我们将在商品到货时通知您，欢迎浏览其它热门商品</string>
+    <string name="sale_out_register_ok">提交成功</string>
+    <string name="sale_out_registration">到货通知</string>
+    <string name="same_day_exchange_auth_warning">您不具有当日换货权限，请联系店长</string>
+    <string name="same_day_exchange_find_order_title">查找订单</string>
+    <string name="same_day_exchange_list_title">当日换货</string>
+    <string name="same_day_exchange_order_detail_title">订单详情</string>
+    <string name="same_day_exchange_scanner_title">扫描商品</string>
+    <string name="same_day_exchange_text">当日换货</string>
+    <string name="same_day_return_auth_warning">您不具有当日退货权限，请联系店长</string>
+    <string name="same_day_return_choice_title">商品退款</string>
+    <string name="same_day_return_confirm_title">POS支付</string>
+    <string name="same_day_return_find_order_title">查找订单</string>
+    <string name="same_day_return_order_detail_title">订单详情</string>
+    <string name="same_day_return_text">当日退货</string>
+    <string name="same_day_return_type">当日退货</string>
+    <string name="save_pic">保存</string>
+    <string name="save_pic_fail">保存图片失败，请检查SD卡是否可用</string>
+    <string name="save_pic_success">图片已经保存到%s</string>
+    <string name="save_pic_unavailiable">图片尚未下载，无法保存</string>
+    <string name="save_printer">发送打印请求</string>
+    <string name="scan_order_sn_text">扫描订单号或商品SN</string>
+    <string name="scan_patient_id_text">扫描病人编号</string>
+    <string name="scanner_code_hint">输入SN</string>
+    <string name="scanner_mihome_1">1</string>
+    <string name="scanner_mihome_1_text">扫米家码</string>
+    <string name="scanner_mihome_2">2</string>
+    <string name="scanner_mihome_2_text">扫商品码</string>
+    <string name="scanner_mihome_3">3</string>
+    <string name="scanner_mihome_3_text">结算支付</string>
+    <string name="scanner_mihome_4">4</string>
+    <string name="scanner_mihome_4_text">现场取货</string>
+    <string name="scanner_mihome_prompt">请将你所在的小米之家二维码图案放在取景框内,会自动完成扫描。</string>
+    <string name="scanner_mihome_title">扫描米家二维码</string>
+    <string name="scanner_nfc_2_text">碰NFC标签</string>
+    <string name="scanner_nfc_3_text">写入完成</string>
+    <string name="scanner_product_prompt">请将病人编号条码图案放在取景框内,会自动完成扫描。</string>
+    <string name="scanner_product_title">扫描商品条形码</string>
+    <string name="scanner_result">扫描结果：</string>
+    <string name="scanner_result_btn">再试一试</string>
+    <string name="scanner_result_label">没有符合的内容哦！</string>
+    <string name="search_hint">搜索商品名称</string>
+    <string name="search_hint_title">大家都在搜</string>
+    <string name="search_order_sn_hint">|订单号 商品SN</string>
+    <string name="search_patient_id_hint">病人编号</string>
+    <string name="search_result_is_null">没有与您搜索内容相符的产品</string>
+    <string name="search_result_title">“%1$s”（%2$s）</string>
+    <string name="search_title">“%s”</string>
+    <string name="see_more">再去逛逛</string>
+    <string name="self_confirm_dowloading">新的安装包正在下载中...</string>
+    <string name="separator">|</string>
+    <string name="service_grade">服务态度</string>
+    <string name="service_repair_info">维修单详情</string>
+    <string name="service_unavailiable">网络连接超时，请稍后重试</string>
+    <string name="shake_adding_cart">正在加入购物车...</string>
+    <string name="shopping_act">您已获得的优惠</string>
+    <string name="shopping_add_supply_exception">添加加价购异常</string>
+    <string name="shopping_button_checkout">去结算</string>
+    <string name="shopping_cartlist_is_empty">购物车还是空的</string>
+    <string name="shopping_cartlist_is_empty_button_title">去逛逛</string>
+    <string name="shopping_cartlist_is_empty_subhead">现在就去选购吧</string>
+    <string name="shopping_cartlist_text_bottom_template">小计:¥%1$s</string>
+    <string name="shopping_cartlist_text_center_template">售价:¥%1$s 数量:%2$d 小计:¥%3$s</string>
+    <string name="shopping_cartlist_title">购物清单</string>
+    <string name="shopping_count_title">商品总数</string>
+    <string name="shopping_supply_title">加价购</string>
+    <string name="shopping_xianhuolist_is_empty">现货篮还是空的</string>
+    <string name="shopping_xianhuolist_is_empty_button_title">去扫扫</string>
+    <string name="shopping_xianhuolist_is_empty_subhead">现在就去选购吧</string>
+    <string name="sn_error">sn错误或此商品已经被卖过</string>
+    <string name="sn_unknown_info">抱歉，商品条码没有识别出来，请手输一下吧</string>
+    <string name="sold_out">已售磬</string>
+    <string name="stockout_error">此商品没有库存</string>
+    <string name="submit">确认完成</string>
+    <string name="switch_formal_test_hint">重启小米零售后生效</string>
+    <string name="tab_indicator_account">订单</string>
+    <string name="tab_indicator_category">注意力</string>
+    <string name="tab_indicator_disease">疾病</string>
+    <string name="tab_indicator_environment">环境</string>
+    <string name="tab_indicator_home">RASS</string>
+    <string name="tab_indicator_lottery">商品</string>
+    <string name="tab_indicator_patient">患者</string>
+    <string name="tab_indicator_thinking">思维</string>
+    <string name="tab_indicator_treatment">治疗</string>
+    <string name="test_env_warning">现在为测试环境，不能下单，请联系开发人员</string>
+    <string name="thinking_test_n1">石头是否能浮在水面上？</string>
+    <string name="thinking_test_n2">海里是否有鱼？</string>
+    <string name="thinking_test_n3">1斤是否比2斤重？</string>
+    <string name="thinking_test_n4">榔头是否能钉钉子？</string>
+    <string name="thinking_test_n5">执行指令:\n伸出这2根手指（给示范）现在用另一只手伸出同样的手指（不示范）</string>
+    <string name="thinking_test_title">下面是4道是非题与1道指令题，答错的请点选。</string>
+    <string name="tips_address_city">请选择城市</string>
+    <string name="tips_address_consignee">请输入收货人姓名</string>
+    <string name="tips_address_district">请选择地区</string>
+    <string name="tips_address_location">请输入街道地址</string>
+    <string name="tips_address_province">请选择省份</string>
+    <string name="tips_address_tel">请输入手机号码</string>
+    <string name="tips_address_zipcode">请输入邮政编码</string>
+    <string name="tips_address_zipcode_length">请输入正确的邮政编码</string>
+    <string name="tips_empty_address">当前地址列表为空</string>
+    <string name="tips_modified">有未保存的数据，确认要退出吗？</string>
+    <string name="title_activate">请激活您的小米帐户</string>
+    <string name="title_activity_icutest">ICUTestActivity</string>
+    <string name="title_checkout">用户结算</string>
+    <string name="title_edit_cartitem">修改购物车</string>
+    <string name="title_login">登录小米帐户</string>
+    <string name="title_my_coupon">我的优惠券</string>
+    <string name="title_network">网络异常</string>
+    <string name="title_online_payment">现场支付</string>
+    <string name="title_ordersubmit">确认订单</string>
+    <string name="title_reg">注册小米帐户</string>
+    <string name="toast_added_favorite">已成功收藏，可以在我的收藏中查看</string>
+    <string name="try_again">重试一下</string>
+    <string name="type_one">CAM-ICU评估</string>
+    <string name="type_two">ICDSC评估</string>
+    <string name="update_no_sd">无法下载更新包，请检查SD卡是否可用</string>
+    <string name="update_title">检测到新版本</string>
+    <string name="uppay_dowloading">银联支付控件正在下载中...</string>
+    <string name="uppay_no_exist_btn_negative">下载控件</string>
+    <string name="uppay_no_exist_btn_positive">取消</string>
+    <string name="uppay_no_exist_message">为保障您的支付安全，请下载并安装银联手机支付控件</string>
+    <string name="uppay_no_exist_title">安全提示</string>
+    <string name="uppay_pay_result_btn_negative">确定</string>
+    <string name="uppay_pay_result_exception">用户取消了支付</string>
+    <string name="uppay_pay_result_fail">支付失败！</string>
+    <string name="uppay_pay_result_success">支付成功！</string>
+    <string name="uppay_pay_result_title">支付结果通知</string>
+    <string name="use_address">选择收货地址</string>
+    <string name="vcode_waiting">正在获取验证码，请稍等...</string>
+    <string name="view_detail">查看详情</string>
+    <string name="web_choose_file">请选择要上传的文件</string>
+    <string name="welecome">欢迎来到小米零售！</string>
+    <string name="word_test">字母法</string>
+    <string name="word_test_n1">S</string>
+    <string name="word_test_n10">T</string>
+    <string name="word_test_n2">A</string>
+    <string name="word_test_n3">V</string>
+    <string name="word_test_n4">E</string>
+    <string name="word_test_n5">A</string>
+    <string name="word_test_n6">H</string>
+    <string name="word_test_n7">A</string>
+    <string name="word_test_n8">A</string>
+    <string name="word_test_n9">R</string>
+    <string name="word_test_title">以每3秒钟的间隔，读下列数字，请病人在听到A的时候，捏一下你的手。</string>
+    <string name="write_a_review_hint">可以写5-140个字</string>
+    <string name="write_a_review_label_p1">评价一下</string>
+    <string name="write_a_review_label_p2">(前5名成功评价的用户会有5元代金券)</string>
+    <string name="write_a_review_title">写评价</string>
+    <string name="xianhuo_button_add">添加商品</string>
+    <string name="xianhuo_sales_text">现货销售</string>
+    <string name="zipcode_format">%06d</string>
+    <!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="TextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextAppearance.Button">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:height">@dimen/button_height</item>
+    </style>
+    <style name="TextAppearance.Button.Highlight"> <!-- 需要反色 -->
+        <item name="android:textColor">@color/primary_text_color_inverse</item>
+    </style>
+    <style name="TextAppearance.EditText">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/text_size_huge</item>
+    </style>
+    <style name="TextAppearance.Huge">
+        <item name="android:textSize">@dimen/text_size_huge</item>
+    </style>
+    <style name="TextAppearance.Label">
+        <item name="android:textSize">@dimen/text_size_huge</item>
+    </style>
+    <style name="TextAppearance.Large">
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+    <style name="TextAppearance.List"/>
+    <style name="TextAppearance.List.Huge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_huge</item>
+        <item name="android:textColor">@color/michat_invation_color</item>
+        <item name="android:shadowColor">@color/primary_text_color_shadow</item>
+    </style>
+    <style name="TextAppearance.List.Large">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:shadowColor">@color/primary_text_color_shadow</item>
+    </style>
+    <style name="TextAppearance.List.Primary">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:shadowColor">@color/primary_text_color_shadow</item>
+    </style>
+    <style name="TextAppearance.List.Secondary">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:shadowColor">@color/secondary_text_color_shadow</item>
+    </style>
+    <style name="TextAppearance.Max">
+        <item name="android:textSize">@dimen/text_size_max</item>
+    </style>
+    <style name="TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="TextAppearance.Normal">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+    <style name="TextAppearance.Normal.Gray">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+    <style name="TextAppearance.Normal.HightLight">
+        <item name="android:textColor">@color/highlight_text_color</item>
+    </style>
+    <style name="TextAppearance.Notice">
+        <item name="android:textColor">@color/highlight_text</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+    <style name="TextAppearance.Notice.Gray">
+        <item name="android:textColor">@color/secondary_text_color</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="TextAppearance.Notice.Gray.Small">
+        <item name="android:textColor">@color/secondary_text_color</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="TextAppearance.Notice.Medium">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="TextAppearance.Notice.Normal">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+    <style name="TextAppearance.Small">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="TextAppearance.Small.Gray">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+    <style name="TextAppearance.Small.Inverse">
+        <item name="android:textColor">@color/primary_text_inverse</item>
+    </style>
+    <style name="TextAppearance.Tab">
+        <item name="android:textSize">@dimen/text_size_huge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tab_text</item>
+        <item name="android:shadowColor">@color/primary_text_color_shadow</item>
+    </style>
+    <style name="TextAppearance.Title">
+        <item name="android:textColor">@color/primary_text_inverse</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+    <style name="TextAppearance.Title.Bar">
+        <item name="android:textColor">@color/primary_text_inverse</item>
+        <item name="android:shadowColor">@color/title_text_color_shadow</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="TextAppearance.Title.Dialog">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+    <style name="TextAppearance.Title.List">
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+    <style name="Theme.Light" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+    <style name="Widget"/>
+    <style name="Widget.AccountTitleBar">
+        <item name="android:textColorHighlight">@color/highlight_text_color</item>
+        <item name="android:textColorLink">@color/link_text</item>
+        <item name="android:background">@drawable/a_section_title</item>
+        <item name="android:textColor">@color/highlight_text_color</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:paddingLeft">8dip</item>
+    </style>
+    <style name="Widget.AutoCompleteTextView" parent="Widget.EditText">
+        <item name="android:popupBackground">@drawable/list_item_middle_bg_n</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:textAppearance">@style/TextAppearance.Tab</item>
+    </style>
+    <style name="Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.Button</item>
+        <item name="android:background">@drawable/btn_secondary_bg</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+    <style name="Widget.Button.Main">
+        <item name="android:background">@drawable/btn_primary_bg</item>
+        <item name="android:textColor">@color/primary_text_inverse</item>
+        <item name="android:shadowColor">@android:color/black</item>
+    </style>
+    <style name="Widget.Button.Main.Shop" parent="Widget.Button.Main">
+        <item name="android:layout_height">@dimen/opt_button_height</item>
+    </style>
+    <style name="Widget.Button.TabLeft">
+        <item name="android:background">@drawable/btn_tab_left_bg</item>
+        <item name="android:textColor">@color/primary_text_inverse</item>
+        <item name="android:shadowColor">@android:color/black</item>
+    </style>
+    <style name="Widget.Button.TabRight">
+        <item name="android:background">@drawable/btn_tab_right_bg</item>
+        <item name="android:textColor">@color/primary_text_inverse</item>
+        <item name="android:shadowColor">@android:color/black</item>
+    </style>
+    <style name="Widget.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/pop_up_bg</item>
+    </style>
+    <style name="Widget.EditText" parent="android:style/Widget.EditText">
+        <item name="android:textAppearance">@style/TextAppearance.EditText</item>
+        <item name="android:background">@drawable/input_bg</item>
+        <item name="android:padding">@dimen/input_padding</item>
+        <item name="android:textColorHint">#cacccd</item>
+    </style>
+    <style name="Widget.EditText.Multi" parent="Widget.EditText">
+        <item name="android:gravity">left|top</item>
+        <item name="android:lines">2</item>
+    </style>
+    <style name="Widget.GridView">
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:fastScrollEnabled">false</item>
+        <item name="android:divider">@null</item>
+        <item name="android:fadingEdge">@null</item>
+        <item name="android:verticalSpacing">@dimen/gridview_spacing</item>
+        <item name="android:horizontalSpacing">@dimen/gridview_spacing</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:listSelector">@null</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:scrollingCache">false</item>
+    </style>
+    <style name="Widget.Header">
+        <item name="android:layout_height">@dimen/header_height</item>
+        <item name="android:background">#fffbeb</item>
+        <item name="android:padding">0dip</item>
+    </style>
+    <style name="Widget.HyperLink">
+        <item name="android:textColorHighlight">@color/highlight_text_color</item>
+        <item name="android:textColorLink">@color/link_text</item>
+        <item name="android:textColor">@color/hyperlinks_text</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:background">@drawable/hyperlink_bg</item>
+    </style>
+    <style name="Widget.Item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Widget.Item.GridView">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="Widget.Item.ListView"/>
+    <style name="Widget.Item.ListView.DoubleLine">
+        <item name="android:layout_height">@dimen/list_item_height_double_line</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="Widget.Item.ListView.Label">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingTop">12.5dip</item>
+        <item name="android:paddingBottom">5dip</item>
+        <item name="android:textSize">@dimen/text_size_huge</item>
+        <item name="android:textAppearance">@style/TextAppearance.Label</item>
+    </style>
+    <style name="Widget.Item.ListView.MutiLine">
+        <item name="android:paddingTop">@dimen/list_item_tb_padding</item>
+        <item name="android:paddingBottom">@dimen/list_item_tb_padding</item>
+    </style>
+    <style name="Widget.Item.ListView.SingleLine">
+        <item name="android:layout_height">@dimen/list_item_height_single_line</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="Widget.Item.ListView.TrebleLine">
+        <item name="android:layout_height">@dimen/list_item_height_treble_line</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="Widget.Item.Spinner" parent="@android:style/Widget.DropDownItem.Spinner">
+        <item name="android:layout_height">@dimen/list_item_height_single_line</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="Widget.Item.Table">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingTop">6dip</item>
+        <item name="android:paddingBottom">6dip</item>
+        <item name="android:textAppearance">@style/TextAppearance.Label</item>
+    </style>
+    <style name="Widget.ListView">
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:fastScrollEnabled">false</item>
+        <item name="android:divider">@null</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:fadingEdge">@null</item>
+        <item name="android:scrollingCache">false</item>
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+    <style name="Widget.ProgressBar" parent="@android:Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@anim/progress_bar_ani_normal</item>
+    </style>
+    <style name="Widget.ScrollView">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:padding">@dimen/list_item_padding</item>
+    </style>
+    <style name="Widget.Spinner" parent="android:Widget.Spinner">
+        <item name="android:textAppearance">@style/TextAppearance</item>
+        <item name="android:background">@drawable/spinner_bg</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHeight">@dimen/list_item_height_single_line</item>
+        <item name="android:layout_height">@dimen/spinner_height</item>
+    </style>
+    <style name="Widget.TabContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">11dip</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Widget.TabIndicator">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">5dip</item>
+        <item name="android:textAppearance">@style/TextAppearance.Tab</item>
+    </style>
+    <style name="Widget.TitleBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/title_bar_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/yellow</item>
+    </style>
+    <style name="Widget.TitleHeader">
+        <item name="android:layout_height">@dimen/title_header_height</item>
+        <item name="android:background">#663366</item>
+        <item name="android:padding">0dip</item>
+    </style>
+    <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/tab_txtcolor</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_marginTop">@dimen/bottom_tab_layout_marginTop</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:paddingLeft">@dimen/bottom_tab_padding_left</item>
+    </style>
+    <style name="rating_bar_large" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bar_large</item>
+        <item name="android:minHeight">26dip</item>
+        <item name="android:maxHeight">26dip</item>
+    </style>
+    <style name="rating_bar_small" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bar_small</item>
+        <item name="android:minHeight">14dip</item>
+        <item name="android:maxHeight">14dip</item>
+    </style>
+</resources>

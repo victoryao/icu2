@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaomi.xms.sales.ui.FCodeProductListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Item.ListView.TrebleLine"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/product_photo"
+        android:layout_width="@dimen/list_icon_size"
+        android:layout_height="@dimen/list_icon_size"
+        android:layout_marginLeft="10dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/product_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/product_photo"
+        android:orientation="vertical"
+        android:paddingLeft="10dip" >
+
+            <TextView
+                android:id="@+id/product_title"
+                style="@style/TextAppearance.List.Primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" 
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/TextAppearance.List.Primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/highlight_text" />
+
+    </LinearLayout>
+
+</com.xiaomi.xms.sales.ui.FCodeProductListItem><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/fcode_product_list_item.xml -->

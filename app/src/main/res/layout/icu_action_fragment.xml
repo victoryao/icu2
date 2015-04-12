@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="5dip"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/icu_action_n1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/icu_action_n1" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/icu_action_n2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/icu_action_n2" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/icu_action_n3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Huge"
+            android:background="@drawable/radiobutton_middle_bg"
+            android:checked="false"
+             android:button="@null"
+            android:text="@string/icu_action_n3" >
+        </CheckBox>
+    </LinearLayout>
+
+</RelativeLayout>

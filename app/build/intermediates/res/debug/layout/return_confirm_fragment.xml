@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.xiaomi.xms.sales.ui.ReturnOrderLayout
+                android:id="@+id/return_order_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/payment_order_info_bg"
+                android:paddingBottom="60dip"
+                android:shrinkColumns="1"
+                android:stretchColumns="1" >
+
+                <TextView
+                    android:id="@+id/return_order_payment_title"
+                    style="@style/TextAppearance.Title.List"
+                    android:layout_marginBottom="17dip"
+                    android:layout_marginTop="17dip"
+                    android:drawableLeft="@drawable/payment_ok"
+                    android:gravity="center"
+                    android:textColor="#ff8ebb54" />
+
+                <include layout="@layout/horizontal_divider" />
+
+                <TableRow android:layout_marginTop="10dip" >
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/return_merchant_name_text" />
+
+                    <TextView
+                        android:id="@+id/return_merchant_name"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:layout_gravity="top"
+                        android:text="@string/return_order_id_text" />
+
+                    <TextView
+                        android:id="@+id/return_order_id"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/return_order_date_text" />
+
+                    <TextView
+                        android:id="@+id/return_order_date"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/return_pos_name_text" />
+
+                    <TextView
+                        android:id="@+id/return_pos_name"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left"
+                        android:text="@string/return_amount_text" />
+
+                    <TextView
+                        android:id="@+id/return_amount"
+                        style="@style/Widget.Item.Table"
+                        android:gravity="left" />
+                </TableRow>
+
+                
+            </com.xiaomi.xms.sales.ui.ReturnOrderLayout>
+
+            <LinearLayout
+                android:id="@+id/pay_action_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/list_item_padding"
+                android:visibility="visible" >
+
+                <Button
+                    android:id="@+id/return_cancel_btn"
+                    style="@style/Widget.Button.Main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/return_cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.xiaomi.xms.sales.widget.EmptyLoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="center" />
+
+</FrameLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/return_confirm_fragment.xml -->

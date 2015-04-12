@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinner_one"
+    style="@style/Widget.Button"
+    android:background="@drawable/spinner_bg" >
+
+    <TextView
+        android:id="@+id/style_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_size_medium" />
+
+</FrameLayout>

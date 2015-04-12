@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/address_province_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/address_province"
+            style="@style/Widget.Spinner"
+            android:layout_width="0dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="2" />
+
+        <Spinner
+            android:id="@+id/address_city"
+            style="@style/Widget.Spinner"
+            android:layout_width="0dip"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/address_district"
+        style="@style/Widget.Spinner"
+        android:layout_width="match_parent"
+        android:layout_below="@id/address_province_city"
+        android:layout_marginTop="10dip" />
+
+</merge>

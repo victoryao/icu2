@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  style="@style/Widget.ScrollView"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/fcode"
+        android:hint="@string/input_fcode"
+        style="@style/Widget.EditText"
+        android:inputType="textUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_item_padding"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/vcode_image"
+            android:layout_width="0dip"
+            android:layout_height="42dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="@dimen/list_item_padding"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleType="fitXY" />
+
+        <EditText
+            android:id="@+id/vcode"
+            android:hint="@string/input_vcode"
+            style="@style/Widget.EditText"
+            android:inputType="textUri"
+            android:layout_marginRight="@dimen/list_item_padding"
+            android:layout_weight="2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/change"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/Widget.Button"
+            android:text="@string/fcode_change" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Button.Main"
+        android:layout_marginTop="@dimen/list_item_padding"
+        android:text="@string/fcode_submit" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Item.ListView.Label"
+        android:layout_marginTop="@dimen/list_item_padding"
+        android:textSize="@dimen/text_size_small"
+        android:text="@string/fcode_text"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="doType">
+         <item>@string/packed_redo</item>
+         <item>@string/order_view_fee_refund</item>
+     </string-array>
+</resources>

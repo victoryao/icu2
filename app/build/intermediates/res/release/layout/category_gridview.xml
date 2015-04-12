@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.xiaomi.xms.sales.widget.EmbeddedGridView
+        android:id="@+id/grid_view"
+        style="@style/Widget.GridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/window_background"
+        android:gravity="center"
+        android:numColumns="2"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="20dip" >
+    </com.xiaomi.xms.sales.widget.EmbeddedGridView>
+
+    <ImageView
+        android:id="@+id/cover_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/title_text_color_shadow"
+        android:visibility="gone" />
+
+</FrameLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/category_gridview.xml -->

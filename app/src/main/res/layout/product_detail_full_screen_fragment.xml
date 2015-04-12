@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/product_detail_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/action_bar_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@drawable/product_detail_header_footer_bg" >
+
+        <ImageView
+            android:id="@+id/action_bar_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_bar_back_button" />
+
+        <TextView
+            android:id="@+id/action_bar_title"
+            style="@style/TextAppearance.Title.Bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/action_bar_home"
+            android:layout_marginLeft="10dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/action_bar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/product_detail_header_footer_bg" >
+
+        <Button
+            android:id="@+id/save_image"
+            style="@style/Widget.Button"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:text="@string/save_pic"
+            android:textColor="@color/primary_text_color_inverse" />
+
+        <LinearLayout
+            android:layout_width="2dip"
+            android:layout_height="match_parent"
+            android:background="@color/black_button_divider" />
+
+        <Button
+            android:id="@+id/back_to_detail"
+            style="@style/Widget.Button"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:background="@android:color/transparent"
+            android:text="@string/view_detail"
+            android:textColor="@color/primary_text_color_inverse"/>
+    </LinearLayout>
+</FrameLayout>

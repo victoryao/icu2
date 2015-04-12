@@ -126,18 +126,17 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:background="@android:color/white"
-                android:textColor="@android:color/black"
                 android:gravity="center"
                 android:text="RASS"
-                 />
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="注意"
                 android:background="@android:color/white"
+                android:gravity="center"
+                android:text="意识"
                 android:textColor="@android:color/black" />
 
             <TextView
@@ -145,7 +144,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="意识"
+                android:text="注意"
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -195,9 +194,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dip"
                 android:gravity="center_vertical"
-                android:text="请不要惊动病人，观察病人属于哪种情况"
-                android:textColor="#FCFCFC"
-                android:textSize="8pt" />
+                android:text="大声叫病人名字，让病人看着你"
+                android:textColor="#FFFF00"
+                android:textSize="12pt" />
 
 
             <ListView
@@ -206,11 +205,25 @@
                 android:layout_height="wrap_content"
                 android:cacheColorHint="#00000000"></ListView>
 
-            <Chronometer
-                android:id="@+id/chronometer1"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:id="@+id/chronometerview"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Chronometer" />
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点击计时:" />
+
+                <Chronometer
+                    android:id="@+id/chronometer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
 
 
         </LinearLayout>

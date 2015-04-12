@@ -65,10 +65,13 @@ public class ICURadioAdapter extends BaseAdapter {
               holder = new ViewHolder();  
               if (view == null) {  
                   view = inflater.inflate(R.layout.icu_radio_list_viewitem, null);  
-              }  
+              }
+
               holder.tv = (TextView) view.findViewById(R.id.item_tv);  
-              holder.cb = (CheckBox) view.findViewById(R.id.item_cb);  
-              view.setTag(holder);  
+              holder.cb = (CheckBox) view.findViewById(R.id.item_cb);
+              if(position == 4)
+                holder.tv.setTextColor(R.color.yellow);
+              view.setTag(holder);
           } else {  
               holder = (ViewHolder) view.getTag();  
           }  

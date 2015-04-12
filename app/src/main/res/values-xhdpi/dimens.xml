@@ -7,7 +7,7 @@
     <dimen name="layout_padding">10dip</dimen>
     <dimen name="button_height">52dip</dimen>
     <dimen name="button_padding_size">10dip</dimen>
-    <dimen name="opt_button_height">41dip</dimen>
+    <dimen name="opt_button_height">36dip</dimen>
     <dimen name="spinner_height">42dip</dimen>
     <dimen name="view_pager_page_margin">20dip</dimen>
     <dimen name="add_button_layout_height">72.5dip</dimen>

@@ -48,7 +48,7 @@
     <dimen name="lottery_photo_box_height">180dip</dimen>
     <dimen name="micloud_login_progress_top">0dip</dimen>
     <dimen name="mihome_info_text_bottom">60dip</dimen>
-    <dimen name="opt_button_height">41dip</dimen>
+    <dimen name="opt_button_height">36dip</dimen>
     <dimen name="phone_filter_icon_height">18dip</dimen>
     <dimen name="phone_filter_icon_width">32dip</dimen>
     <dimen name="product_button_height">50dip</dimen>

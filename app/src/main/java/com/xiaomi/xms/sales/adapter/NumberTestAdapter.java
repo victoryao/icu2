@@ -61,8 +61,8 @@ public class NumberTestAdapter extends  BaseAdapter {
 		            // 给ImageView设置资源
 		            textView = new TextView(mContext);
 		            // 设置布局 图片120×120显示
-		            textView.setLayoutParams(new GridView.LayoutParams(85, 185));
-		            textView.setTextSize(50);
+		            textView.setLayoutParams(new GridView.LayoutParams(60, 90));
+		            textView.setTextSize(30);
 		            
 		        }
 		        else

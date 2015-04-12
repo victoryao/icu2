@@ -14,6 +14,7 @@ import android.widget.Button;
 
 import com.xiaomi.xms.sales.R;
 import com.xiaomi.xms.sales.activity.CAMICUAttentionTestActivity;
+import com.xiaomi.xms.sales.activity.CAMICUThinkingTestActivity;
 import com.xiaomi.xms.sales.adapter.ICURadioAdapter;
 import com.xiaomi.xms.sales.util.Constants;
 
@@ -50,7 +51,8 @@ public class CamICURASSResultFragment extends BaseFragment {
 			
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(getActivity(), CAMICUAttentionTestActivity.class);
+                Intent intent = new Intent(getActivity(), CAMICUThinkingTestActivity.class);
+//				Intent intent = new Intent(getActivity(), CAMICUAttentionTestActivity.class);
 				getActivity().startActivity(intent);
 			}
 		});

@@ -34,6 +34,7 @@ public class CamICURASSStep2Fragment extends BaseFragment {
     private List<HashMap<String, Object>> list = null;
     private ICURadioAdapter adapter;
     private Bundle mBundle;
+    private View chview;
     private Chronometer ch;
 
     public void init() {
@@ -57,8 +58,9 @@ public class CamICURASSStep2Fragment extends BaseFragment {
         }
         tv = (TextView) view.findViewById(R.id.tv);
         lv = (ListView) view.findViewById(R.id.lv);
+        chview = (View) view.findViewById(R.id.chronometerview);
         ch = (Chronometer) view.findViewById(R.id.chronometer1);
-        ch.setOnClickListener(new View.OnClickListener() {
+        chview.setOnClickListener(new View.OnClickListener() {
                                   @Override
                                   public void onClick(View v) {
                                       ch.setBase(SystemClock.elapsedRealtime());
@@ -70,7 +72,7 @@ public class CamICURASSStep2Fragment extends BaseFragment {
         ch.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
             @Override
             public void onChronometerTick(Chronometer arg0) {
-                if (SystemClock.elapsedRealtime() - ch.getBase() > 10) {
+                if (SystemClock.elapsedRealtime() - ch.getBase() > 10*1000) {
                     ch.stop();
                 }
 

@@ -2,26 +2,26 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Widget.ScrollView"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent">
 
     <RelativeLayout
         android:id="@+id/bottom"
         style="@style/Widget.Header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true" >
+        android:layout_alignParentBottom="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -31,8 +31,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="危险因素" >
-                </TextView>
+                    android:text="危险因素"></TextView>
             </LinearLayout>
 
             <LinearLayout
@@ -40,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -50,8 +49,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="护理措施" >
-                </TextView>
+                    android:text="护理措施"></TextView>
             </LinearLayout>
 
             <LinearLayout
@@ -59,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -69,8 +67,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="历史记录" >
-                </TextView>
+                    android:text="历史记录"></TextView>
             </LinearLayout>
 
             <LinearLayout
@@ -78,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -88,8 +85,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="帮助" >
-                </TextView>
+                    android:text="帮助"></TextView>
             </LinearLayout>
 
             <LinearLayout
@@ -97,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -107,8 +103,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="主页" >
-                </TextView>
+                    android:text="主页"></TextView>
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
@@ -118,13 +113,13 @@
         style="@style/Widget.TitleHeader"
         android:layout_width="match_parent"
         android:layout_alignParentTop="true"
-        android:gravity="center" >
+        android:gravity="center">
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -137,18 +132,19 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
                 android:layout_weight="1"
+                android:background="@android:color/white"
                 android:gravity="center"
-                android:text="注意"
-                android:textColor="@android:color/white" />
+                android:text="意识"
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="意识"
+                android:text="注意"
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -168,7 +164,7 @@
         android:layout_below="@id/top"
         android:gravity="center"
         android:orientation="vertical"
-        android:paddingTop="20dip" >
+        android:paddingTop="20dip">
 
         <ImageView
             android:id="@+id/process2"
@@ -184,12 +180,13 @@
         android:layout_above="@id/bottom"
         android:layout_below="@id/node"
         android:background="#666666"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:gravity="center"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/tv"
@@ -197,24 +194,38 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dip"
                 android:gravity="center_vertical"
-                android:text="请不要惊动病人，观察病人属于哪种情况"
-                android:textColor="#FCFCFC"
-                android:textSize="8pt" />
+                android:text="大声叫病人名字，让病人看着你"
+                android:textColor="#FFFF00"
+                android:textSize="12pt" />
 
 
             <ListView
                 android:id="@+id/lv"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:cacheColorHint="#00000000" >
-            </ListView>
-            
-             <AnalogClock
-                android:id="@+id/analogClock1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:cacheColorHint="#00000000"></ListView>
 
-            
+            <LinearLayout
+                android:id="@+id/chronometerview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点击计时:" />
+
+                <Chronometer
+                    android:id="@+id/chronometer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
         </LinearLayout>
     </RelativeLayout>
 

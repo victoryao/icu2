@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,11 +12,14 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.xiaomi.xms.sales.R;
 import com.xiaomi.xms.sales.activity.CAMICUMainTestActivity;
+import com.xiaomi.xms.sales.activity.CAMICUThinkingTestActivity;
+import com.xiaomi.xms.sales.activity.TransparentActivity;
 import com.xiaomi.xms.sales.adapter.ICURadioAdapter;
 import com.xiaomi.xms.sales.adapter.ViewHolder;
 
@@ -25,12 +29,14 @@ public class CamICUThinkingTestFragment extends BaseFragment {
     ListView lv = null;  
     Button btn_selectAll = null;  
     Button btn_inverseSelect = null;  
-    Button btn_calcel = null;  
-    
+    Button btn_calcel = null;
+
+    private View mFooterView;
     ArrayList<String> listStr = null;  
     private List<HashMap<String, Object>> list = null;  
     private ICURadioAdapter adapter;  
 	private Bundle mBundle;
+    private ImageView iv;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -41,12 +47,28 @@ public class CamICUThinkingTestFragment extends BaseFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.cam_icu_thinking_test_fragment, container, false);
+        mFooterView = inflater.inflate(R.layout.thinking_footer, null, false);
 		mBundle = getArguments();
 		if(mBundle == null){
 			mBundle = new Bundle();
 		}
 		tv = (TextView) view.findViewById(R.id.tv);  
-        lv = (ListView) view.findViewById(R.id.lv);  
+        lv = (ListView) view.findViewById(R.id.lv);
+        lv.addFooterView(mFooterView);
+        iv = (ImageView)mFooterView.findViewById(R.id.thinking_insr_img);
+        iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent();
+                intent.putExtra("extra", "指令说明:\n" +
+                        "• “伸出这几根手指”(检查者在患者面前伸出 2 根手指) \n" +
+                        "• “现在用另一只手伸出同样多的手指”\n" +
+                        "• 或:“再增加一根手指”(如果患者只有一只手能动)\n" +
+                        "麻痹、四肢瘫痪或者视觉障碍病人，不必进行“执行指令”");
+                intent = intent.setClass(getActivity(), TransparentActivity.class);
+                startActivity(intent);
+            }
+        });
         showCheckBoxListView();  
           
 		return view;

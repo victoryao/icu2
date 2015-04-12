@@ -242,9 +242,9 @@
     <style name="Widget.Item.ListView.Label">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:paddingTop">12.5dip</item>
+        <item name="android:paddingTop">8dip</item>
         <item name="android:paddingBottom">5dip</item>
-        <item name="android:textSize">@dimen/text_size_huge</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
         <item name="android:textAppearance">@style/TextAppearance.Label</item>
     </style>
 

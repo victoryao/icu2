@@ -78,12 +78,7 @@ public class CamICURASSStep1Fragment extends BaseFragment {
                         int position, long arg3) {  
                     ViewHolder holder = (ViewHolder) view.getTag();  
                     holder.cb.toggle();// 在每次获取点击的item时改变checkbox的状态  
-//                    adapter.isSelected.put(position, holder.cb.isChecked()); // 同时修改map的值保存状态  
-//                    if (holder.cb.isChecked() == true) {  
-//                        listStr.add(name[position]);  
-//                    } else {  
-//                        listStr.remove(name[position]);  
-//                    }  
+
                     CAMICUMainTestActivity father = (CAMICUMainTestActivity)getActivity();
     				father.showFragment(CAMICUMainTestActivity.Fragments.TAG_CAM_ICU_RASS_STEP2_FRAGMENT, mBundle, true);
 //                    tv.setText("已选中"+listStr.size()+"项");  

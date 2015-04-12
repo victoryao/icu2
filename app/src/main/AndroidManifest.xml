@@ -114,6 +114,16 @@
             android:name="com.xiaomi.xms.sales.activity.CAMICUAttentionTestActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xiaomi.xms.sales.activity.TransparentActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.xiaomi.xms.sales.activity.CAMICUThinkingTestActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
          <activity
             android:name="com.xiaomi.xms.sales.activity.CAMICUMainTestActivity"
             android:configChanges="keyboardHidden|orientation"

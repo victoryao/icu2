@@ -168,7 +168,7 @@
         android:layout_below="@id/top"
         android:gravity="center"
         android:orientation="vertical"
-        android:paddingTop="20dip" >
+        android:paddingTop="10dip" >
 
         <ImageView
             android:id="@+id/process2"
@@ -182,15 +182,15 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/node"
-        android:layout_marginTop="30dip"
+        android:layout_marginTop="5dip"
         android:background="#666666"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:orientation="vertical" >
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="center_horizontal"
             android:orientation="vertical" >
 
             <LinearLayout
@@ -205,7 +205,7 @@
                     android:layout_height="wrap_content"
                     android:text="8"
                     android:textColor="@color/green_title"
-                    android:textSize="70sp" />
+                    android:textSize="60sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -220,13 +220,14 @@
                         android:gravity="center"
                         android:text="数字法" 
                         android:textColor="@android:color/white"
-                        android:textSize="30sp"/>
+                        android:textSize="25sp"
+                         />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:layout_marginTop="10dip"
+                        android:layout_marginTop="3dip"
                         android:textColor="@android:color/white"
                         android:text="适用于除听力障碍者"
                         android:textSize="20sp" />
@@ -238,7 +239,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                 android:background="#663366"
+                 android:background="#3b3b3b"
                 android:orientation="horizontal" >
 
                 <ImageView
@@ -261,13 +262,13 @@
                         android:gravity="center"
                         android:text="图片法" 
                         android:textColor="@android:color/white"
-                        android:textSize="30sp"/>
+                        android:textSize="25sp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:layout_marginTop="10dip"
+                        android:layout_marginTop="3dip"
                         android:textColor="@android:color/white"
                         android:text="适用于除视力障碍者"
                         android:textSize="20sp" />
@@ -286,7 +287,7 @@
                     android:layout_height="wrap_content"
                     android:text="A"
                     android:textColor="@color/green_title"
-                    android:textSize="70sp" />
+                    android:textSize="60sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -301,13 +302,13 @@
                         android:gravity="center"
                         android:text="字母法" 
                         android:textColor="@android:color/white"
-                        android:textSize="30sp"/>
+                        android:textSize="25sp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:layout_marginTop="10dip"
+                        android:layout_marginTop="3dip"
                         android:textColor="@android:color/white"
                         android:text="适用于母语为英语者"
                         android:textSize="20sp" />

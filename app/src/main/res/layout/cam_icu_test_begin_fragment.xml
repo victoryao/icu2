@@ -140,7 +140,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textColor="@android:color/white"
-                android:text="注意" />
+                android:text="意识" />
 
             <TextView
                 android:layout_height="wrap_content"
@@ -148,7 +148,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textColor="@android:color/white"
-                android:text="意识" />
+                android:text="注意" />
 
             <TextView
                 android:layout_height="wrap_content"

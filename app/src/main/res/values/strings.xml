@@ -720,11 +720,11 @@
      <string name="word_test_n9">R</string>
      <string name="word_test_n10">T</string>
      
-     <string name="thinking_test_n1">石头是否能浮在水面上？</string>
-     <string name="thinking_test_n2">海里是否有鱼？</string>
-     <string name="thinking_test_n3">1斤是否比2斤重？</string>
-     <string name="thinking_test_n4">榔头是否能钉钉子？</string>
-     <string name="thinking_test_n5">执行指令:\n伸出这2根手指（给示范）现在用另一只手伸出同样的手指（不示范）</string>
+     <string name="thinking_test_n1">1.石头是否能浮在水面上？</string>
+     <string name="thinking_test_n2">2.海里是否有鱼？</string>
+     <string name="thinking_test_n3">3.1斤是否比2斤重？</string>
+     <string name="thinking_test_n4">4.您是否能用榔头锯木头？</string>
+     <string name="thinking_test_n5">请病人执行指令，如错误点击右框</string>
      
      
      <string name="number_test_summary_title">错几个?</string>

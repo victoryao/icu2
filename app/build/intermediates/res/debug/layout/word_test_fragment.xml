@@ -4,9 +4,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
     android:gravity="center_horizontal"
-    android:orientation="vertical"
-    android:paddingLeft="10dip"
-    android:paddingRight="10dip" >
+    android:orientation="vertical" >
 
     <RelativeLayout
         android:id="@+id/action_container"
@@ -14,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@drawable/order_bottom_bg"
-        android:padding="10dip" >
+        android:padding="2dip" >
 
         <Button
             android:id="@+id/confirm_btn"
@@ -29,38 +27,54 @@
     </RelativeLayout>
 
     <RelativeLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="25dip"  >
+        android:layout_alignParentTop="true"  >
+
+        <LinearLayout
+            android:id="@+id/word_test_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
         <TextView
-            android:id="@+id/word_test_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dip"
+            android:layout_marginTop="10dip"
+            android:background="#666666"
+            android:gravity="center"
+            android:text="@string/instruction"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#666666"
             android:text="@string/word_test_title"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
+        </LinearLayout>
 
         <GridView
 			android:id="@+id/gridview"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/word_test_title"
-            android:layout_marginTop="30dip"
+            android:layout_marginTop="20dip"
             android:columnWidth="10dp"
             android:gravity="center"
-            android:horizontalSpacing="5dp"
+            android:horizontalSpacing="2dp"
             android:numColumns="5"
             android:stretchMode="columnWidth"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:verticalSpacing="5dp" />
+            android:verticalSpacing="2dp" />
 
         <TextView
             android:id="@+id/word_summary_title"
             android:layout_below="@id/gridview"
             style="@style/Widget.Item.ListView.Label"
+            android:background="#666666"
             android:text="@string/number_test_summary_title" />
 
         <RadioGroup
@@ -68,13 +82,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/word_summary_title"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:background="#666666">
 
             <RadioButton
                 android:id="@+id/button1"
                 android:layout_width="fill_parent"
                 android:layout_height="50dip"
                 android:checked="true"
+                android:layout_marginLeft="40dip"
                 android:paddingLeft="50dip"
                 android:text="@string/number_test_summary_answer1"
                 android:textSize="30sp" 

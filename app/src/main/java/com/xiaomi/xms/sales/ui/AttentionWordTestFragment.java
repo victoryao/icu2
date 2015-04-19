@@ -15,6 +15,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.xiaomi.xms.sales.R;
+import com.xiaomi.xms.sales.activity.AttentionTestActivity;
 import com.xiaomi.xms.sales.adapter.WordTestAdapter;
 import com.xiaomi.xms.sales.util.Constants;
 import com.xiaomi.xms.sales.util.ToastUtil;
@@ -24,6 +25,7 @@ public class AttentionWordTestFragment extends BaseFragment {
 	
 	private Button mConfirmButton;
 	private RadioGroup mRadioGroup;
+    private Bundle mBundle;
 	
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
@@ -42,18 +44,18 @@ public class AttentionWordTestFragment extends BaseFragment {
 				String attentionResult = checkRadioButton.getTag().toString();
 				int rassResultInt = Integer.parseInt(attentionResult);
 				if( rassResultInt == 2){
-					Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.RASS_RESULT_BOOLEAN, true);
+					Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.ATTENTION_RESULT_BOOLEAN, true);
 				}else{
-					Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.RASS_RESULT_BOOLEAN, false);
+					Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.ATTENTION_RESULT_BOOLEAN, false);
 				}
-				ToastUtil.show(getActivity(), "提交成功，请滑动屏幕进行思维测试");
+//				ToastUtil.show(getActivity(), "提交成功，请滑动屏幕进行思维测试");
 				Utils.Preference.setStringPref(getActivity(), Constants.IcuGradeResult.ATTENTION_RESULT, attentionResult);
-				getActivity().finish();
-				
-//				SameDayReturnActivity father = (SameDayReturnActivity) getActivity();
-//				father.showFragment(
-//						SameDayReturnActivity.Fragments.TAG_RETURN_CONFIRM_FRAGMENT,
-//						mBundle, true);
+//				getActivity().finish();
+
+                AttentionTestActivity father = (AttentionTestActivity) getActivity();
+				father.showFragment(
+                        AttentionTestActivity.Fragments.TAG_ATTENTION_RESULT_FRAGMENT,
+                        mBundle, true);
 			}
 		});
 
@@ -62,8 +64,13 @@ public class AttentionWordTestFragment extends BaseFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
+
 		View view = inflater.inflate(R.layout.word_test_fragment, container,
 				false);
+        mBundle = getArguments();
+        if(mBundle == null){
+            mBundle = new Bundle();
+        }
 		mConfirmButton = (Button) view.findViewById(R.id.confirm_btn);
 		mRadioGroup = (RadioGroup) view.findViewById(R.id.word_test_summary_choice);
 		// 取得GridView对象

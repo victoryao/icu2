@@ -131,8 +131,18 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:background="@android:color/white"
+                android:textColor="@android:color/black"
                 android:gravity="center"
                 android:text="RASS"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="意识"
+                android:background="@android:color/white"
                 android:textColor="@android:color/black" />
 
             <TextView
@@ -141,14 +151,6 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="注意"
-                android:textColor="@android:color/white" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="意识"
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -197,9 +199,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dip"
                 android:gravity="center_vertical"
-                android:textColor="#FCFCFC"
-                android:text="请不要惊动病人，观察病人属于哪种情况"
-                android:textSize="8pt" />
+                android:textColor="#FFFF00"
+                android:text="推摇病人的肩膀，并选择"
+                android:textSize="12pt" />
 
             <ListView
                 android:id="@+id/lv"

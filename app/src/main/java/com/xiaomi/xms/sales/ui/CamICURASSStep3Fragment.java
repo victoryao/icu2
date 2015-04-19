@@ -19,6 +19,8 @@ import com.xiaomi.xms.sales.R;
 import com.xiaomi.xms.sales.activity.CAMICUMainTestActivity;
 import com.xiaomi.xms.sales.adapter.ICURadioAdapter;
 import com.xiaomi.xms.sales.adapter.ViewHolder;
+import com.xiaomi.xms.sales.util.Constants;
+import com.xiaomi.xms.sales.util.Utils;
 
 public class CamICURASSStep3Fragment extends BaseFragment {
 
@@ -92,10 +94,11 @@ public class CamICURASSStep3Fragment extends BaseFragment {
 //                        listStr.add(name[position]);  
 //                    } else {  
 //                        listStr.remove(name[position]);  
-//                    }  
+//                    }
+                    Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.RASS_STEP3, true);
                     CAMICUMainTestActivity father = (CAMICUMainTestActivity)getActivity();
     				father.showFragment(CAMICUMainTestActivity.Fragments.TAG_CAM_ICU_RASS_RESULT_FRAGMENT, mBundle, true);
-                   
+                    Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.RASS_RESULT_BOOLEAN, false);
                 }  
   
             });  

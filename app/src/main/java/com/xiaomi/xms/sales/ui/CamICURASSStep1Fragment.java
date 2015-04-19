@@ -18,6 +18,8 @@ import com.xiaomi.xms.sales.R;
 import com.xiaomi.xms.sales.activity.CAMICUMainTestActivity;
 import com.xiaomi.xms.sales.adapter.ICURadioAdapter;
 import com.xiaomi.xms.sales.adapter.ViewHolder;
+import com.xiaomi.xms.sales.util.Constants;
+import com.xiaomi.xms.sales.util.Utils;
 
 public class CamICURASSStep1Fragment extends BaseFragment {
 
@@ -77,10 +79,29 @@ public class CamICURASSStep1Fragment extends BaseFragment {
                 public void onItemClick(AdapterView<?> arg0, View view,  
                         int position, long arg3) {  
                     ViewHolder holder = (ViewHolder) view.getTag();  
-                    holder.cb.toggle();// 在每次获取点击的item时改变checkbox的状态  
+                    holder.cb.toggle();// 在每次获取点击的item时改变checkbox的状态
+                    if (position ==5) {
+                        CAMICUMainTestActivity father = (CAMICUMainTestActivity)getActivity();
+                        father.showFragment(CAMICUMainTestActivity.Fragments.TAG_CAM_ICU_RASS_STEP2_FRAGMENT, mBundle, true);
+                        Utils.Preference.setStringPref(getActivity(), Constants.IcuGradeResult.RASS_TEMP_RESULT, Integer.toString(position));
+                    } else {
+                        String history = Utils.Preference.getStringPref(getActivity(), Constants.IcuGradeResult.RASS_RESULT,"0");
+                        if (Integer.parseInt(history) != position) {
+                            Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.RASS_RESULT_BOOLEAN, true);
+                        } else {
+                            Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.RASS_RESULT_BOOLEAN, false);
+                            //跳转的无谵妄页面
+                        }
+                        Utils.Preference.setStringPref(getActivity(), Constants.IcuGradeResult.RASS_TEMP_RESULT, Integer.toString(position));
+                        CAMICUMainTestActivity father = (CAMICUMainTestActivity)getActivity();
+                        father.showFragment(CAMICUMainTestActivity.Fragments.TAG_CAM_ICU_RASS_RESULT_FRAGMENT, mBundle, true);
+                        Utils.Preference.setStringPref(getActivity(), Constants.IcuGradeResult.RASS_RESULT, Integer.toString(position));
+                    }
 
-                    CAMICUMainTestActivity father = (CAMICUMainTestActivity)getActivity();
-    				father.showFragment(CAMICUMainTestActivity.Fragments.TAG_CAM_ICU_RASS_STEP2_FRAGMENT, mBundle, true);
+
+
+                    //CAMICUMainTestActivity father = (CAMICUMainTestActivity)getActivity();
+    				//father.showFragment(CAMICUMainTestActivity.Fragments.TAG_CAM_ICU_RASS_STEP2_FRAGMENT, mBundle, true);
 //                    tv.setText("已选中"+listStr.size()+"项");  
                 }  
   

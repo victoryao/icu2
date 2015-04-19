@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.xiaomi.xms.sales.R;
+import com.xiaomi.xms.sales.activity.AttentionTestActivity;
 import com.xiaomi.xms.sales.adapter.AttentionImageAdapter;
 import com.xiaomi.xms.sales.util.Constants;
 import com.xiaomi.xms.sales.util.Utils;
@@ -64,9 +65,12 @@ public class AttentionPictureTestFragment extends BaseFragment {
 					}else{
 						Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.ATTENTION_RESULT_BOOLEAN, false);
 					}
-					Toast.makeText(getActivity(),"提交成功，答错"+num+"个题请滑动屏幕进行思维测试", Toast.LENGTH_SHORT).show();  
+					Toast.makeText(getActivity(),"提交成功，答错"+num+"个题请继续进行思维测试", Toast.LENGTH_SHORT).show();
 					Constants.picSet.clear();
-					getActivity().finish();
+                    AttentionTestActivity father = (AttentionTestActivity) getActivity();
+                    father.showFragment(
+                            AttentionTestActivity.Fragments.TAG_ATTENTION_RESULT_FRAGMENT,
+                            null, true);
 					return;
 				}
 				AttentionImageAdapter ia=new AttentionImageAdapter(getActivity(),Constants.mSecondPictures);		

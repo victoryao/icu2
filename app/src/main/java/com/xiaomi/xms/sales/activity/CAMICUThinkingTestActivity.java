@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 
 import com.xiaomi.xms.sales.R;
 import com.xiaomi.xms.sales.ui.BaseFragment;
+import com.xiaomi.xms.sales.ui.CAMICUThinkingResultFragment;
 import com.xiaomi.xms.sales.ui.CamICUAttentionTestBeginFragment;
 import com.xiaomi.xms.sales.ui.CamICUThinkingTestFragment;
 
@@ -14,6 +15,7 @@ public class CAMICUThinkingTestActivity extends BaseActivity {
 
 	public static class Fragments {
 		public static final String TAG_CAM_ICU_THINKING_TEST_BEGIN_FRAGMENT = "cam_icu_thinking_test_begin_fragment";
+        public static final String TAG_CAM_ICU_THINKING_RESULT_FRAGMENT = "cam_icu_thinking_result_fragment";
 	}
 
 	@Override
@@ -36,7 +38,10 @@ public class CAMICUThinkingTestActivity extends BaseActivity {
 		if (Fragments.TAG_CAM_ICU_THINKING_TEST_BEGIN_FRAGMENT.equals(tag)) {
 			fragment = new CamICUThinkingTestFragment();
 			setTitle(R.string.cam_icu_title);
-		}
+		}else if (Fragments.TAG_CAM_ICU_THINKING_RESULT_FRAGMENT.equals(tag)) {
+            fragment = new CAMICUThinkingResultFragment();
+            setTitle(R.string.cam_icu_title);
+        }
 		return fragment;
 	}
 

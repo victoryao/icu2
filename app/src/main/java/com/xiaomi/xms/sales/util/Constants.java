@@ -289,7 +289,8 @@ public final class Constants {
 		public static final String ACTION_ATTENTION_NUMBER_TEST_ACTION = "com.xiaomi.xms.sales.action_attention_number_test_action";  
 		public static final String ACTION_ATTENTION_WORD_TEST_ACTION = "com.xiaomi.xms.sales.action_attention_word_test_action";  
 		public static final String ACTION_ATTENTION_PICTURE_TEST_ACTION = "com.xiaomi.xms.sales.action_attention_picture_test_action";  
-		
+		public static final String ACTION_ATTENTION_RESULT_ACTION = "com.xiaomi.xms.sales.action_attention_result_action";
+
 		
 		public static final String ACTION_PATIENT_SEARCH_SCAN = "com.xiaomi.xms.sales.action_patient_search_scan";
 		public static final String EXTRA_PATIENT_SN_STR = "com.xiaomi.xms.sales.action_patient_sn_str";
@@ -434,12 +435,15 @@ public final class Constants {
     }
     
     public static final class IcuGradeResult {
+        public static final String ZHANWANG_RESULT_BOOLEAN = "zhanwang_result_boolean";
+        public static final String RASS_STEP3="rass_step3";
         public static final String RASS_RESULT = "rass_result";
         public static final String ATTENTION_RESULT = "attention_result";
         public static final String THINK_RESULT = "think_result";
         public static final String RASS_RESULT_BOOLEAN = "rass_result_boolean";
         public static final String THINK_RESULT_BOOLEAN = "think_result_boolean";
         public static final String ATTENTION_RESULT_BOOLEAN = "attention_result_boolean";
+        public static final String RASS_TEMP_RESULT = "rass_result";
     }
 
     // 解析移动版的m.xiaomi.com的URI

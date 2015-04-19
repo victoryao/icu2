@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/progress_bar_small"
-    android:pivotX="50%"
-    android:pivotY="50%" /><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/anim/progress_bar_ani_normal.xml -->

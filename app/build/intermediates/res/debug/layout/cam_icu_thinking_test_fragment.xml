@@ -113,6 +113,8 @@
         </LinearLayout>
     </RelativeLayout>
 
+
+
     <RelativeLayout
         android:id="@+id/top"
         style="@style/Widget.TitleHeader"
@@ -139,7 +141,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="注意"
+                android:text="意识"
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -147,7 +149,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="意识"
+                android:text="注意"
                 android:textColor="@android:color/white" />
 
             <TextView
@@ -171,16 +173,17 @@
         android:paddingTop="20dip" >
 
         <ImageView
-            android:id="@+id/process2"
+            android:id="@+id/process4"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/process2"
+            android:background="@drawable/process4"
             android:gravity="center" />
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/thinking_content"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_above="@id/bottom"
         android:layout_below="@id/node"
         android:background="#666666"
@@ -197,17 +200,20 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dip"
                 android:gravity="center_vertical"
-                android:text="请不要惊动病人，观察病人属于哪种情况"
-                android:textColor="#FCFCFC"
-                android:textSize="8pt" />
+                android:text="询问病人以下问题，点击其答错的题"
+                android:textColor="#FFFF00"
+                android:textSize="12pt" />
 
             <ListView
                 android:id="@+id/lv"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:cacheColorHint="#00000000" >
+                android:cacheColorHint="#00000000">
             </ListView>
         </LinearLayout>
     </RelativeLayout>
+
+
+
 
 </RelativeLayout><!-- From: file:/Users/yaoqiang/AndroidStudioProjects/icu/app/src/main/res/layout/cam_icu_thinking_test_fragment.xml -->

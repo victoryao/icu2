@@ -21,6 +21,8 @@ import com.xiaomi.xms.sales.R;
 import com.xiaomi.xms.sales.activity.CAMICUMainTestActivity;
 import com.xiaomi.xms.sales.adapter.ICURadioAdapter;
 import com.xiaomi.xms.sales.adapter.ViewHolder;
+import com.xiaomi.xms.sales.util.Constants;
+import com.xiaomi.xms.sales.util.Utils;
 
 public class CamICURASSStep2Fragment extends BaseFragment {
 
@@ -117,9 +119,17 @@ public class CamICURASSStep2Fragment extends BaseFragment {
 //                        listStr.add(name[position]);  
 //                    } else {  
 //                        listStr.remove(name[position]);  
-//                    }  
-                    CAMICUMainTestActivity father = (CAMICUMainTestActivity) getActivity();
-                    father.showFragment(CAMICUMainTestActivity.Fragments.TAG_CAM_ICU_RASS_STEP3_FRAGMENT, mBundle, true);
+//                    }
+                    if (position ==3) {
+                        CAMICUMainTestActivity father = (CAMICUMainTestActivity) getActivity();
+                        father.showFragment(CAMICUMainTestActivity.Fragments.TAG_CAM_ICU_RASS_STEP3_FRAGMENT, mBundle, true);
+                    } else {
+                        Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.RASS_RESULT_BOOLEAN, true);
+                        CAMICUMainTestActivity father = (CAMICUMainTestActivity)getActivity();
+                        father.showFragment(CAMICUMainTestActivity.Fragments.TAG_CAM_ICU_RASS_RESULT_FRAGMENT, mBundle, true);
+                    }
+                    //CAMICUMainTestActivity father = (CAMICUMainTestActivity) getActivity();
+                    //father.showFragment(CAMICUMainTestActivity.Fragments.TAG_CAM_ICU_RASS_STEP3_FRAGMENT, mBundle, true);
 
                 }
 

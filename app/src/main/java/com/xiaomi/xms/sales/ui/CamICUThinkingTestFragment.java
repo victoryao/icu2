@@ -30,6 +30,7 @@ public class CamICUThinkingTestFragment extends BaseFragment {
     Button btn_selectAll = null;  
     Button btn_inverseSelect = null;  
     Button btn_calcel = null;
+    private Button mConfirmButton;
 
     private View mFooterView;
     ArrayList<String> listStr = null;  
@@ -39,8 +40,15 @@ public class CamICUThinkingTestFragment extends BaseFragment {
     private ImageView iv;
 
 	@Override
-	public void onCreate(Bundle savedInstanceState) {
+	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        mConfirmButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 		
 	}
 
@@ -48,6 +56,7 @@ public class CamICUThinkingTestFragment extends BaseFragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.cam_icu_thinking_test_fragment, container, false);
         mFooterView = inflater.inflate(R.layout.thinking_footer, null, false);
+
 		mBundle = getArguments();
 		if(mBundle == null){
 			mBundle = new Bundle();
@@ -56,6 +65,7 @@ public class CamICUThinkingTestFragment extends BaseFragment {
         lv = (ListView) view.findViewById(R.id.lv);
         lv.addFooterView(mFooterView);
         iv = (ImageView)mFooterView.findViewById(R.id.thinking_insr_img);
+        mConfirmButton = (Button)mFooterView.findViewById(R.id.thinking_confirm_btn);
         iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

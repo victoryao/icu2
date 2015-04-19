@@ -185,40 +185,51 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/bottom"
         android:layout_below="@id/node"
-        android:background="#666666"
         android:orientation="vertical" >
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" 
+            android:orientation="vertical"
             android:gravity="center">
 
             <TextView
-                android:id="@+id/tv"
+                android:id="@+id/rass_res_title"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dip"
                 android:gravity="center"
+                android:background="#666666"
                 android:text="病人处于镇静状态"
-                android:textColor="#FCFCFC"
-                android:textSize="8pt" />
+                android:textColor="@color/yellow"
+                android:textSize="12pt"
+                android:layout_marginBottom="10dp"/>
 
             <TextView
-                android:id="@+id/tv1"
+                android:id="@+id/rass_res_content"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dip"
+                android:layout_height="100dip"
                 android:gravity="center"
-                android:text="暂时无法评估"
+                android:text="特征1＋\n特征2 —"
+                android:background="@color/black_button_divider"
                 android:textColor="#FCFCFC"
-                android:textSize="8pt" />
+                android:textSize="12pt"
+                android:layout_marginBottom="20dp"/>
 
             <Button
-                android:id="@+id/next_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="评估下一个病人" />
+                android:id="@+id/rass_next_patient"
+                android:layout_width="200dip"
+                android:layout_height="40dip"
+                android:text="评估下一个病人"
+                android:background="#48D1CC"
+                android:textSize="10pt"/>
+            <Button
+                android:id="@+id/rass_next_attention"
+                android:layout_width="200dip"
+                android:layout_height="40dip"
+                android:text="继续评估注意力"
+                android:background="#48D1CC"
+                android:textSize="10pt"
+                android:layout_marginTop="10dp"/>
         </LinearLayout>
     </RelativeLayout>
 

@@ -15,6 +15,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.xiaomi.xms.sales.R;
+import com.xiaomi.xms.sales.activity.AttentionTestActivity;
 import com.xiaomi.xms.sales.adapter.NumberTestAdapter;
 import com.xiaomi.xms.sales.util.Constants;
 import com.xiaomi.xms.sales.util.ToastUtil;
@@ -46,13 +47,13 @@ public class AttentionNumberTestFragment extends BaseFragment {
 				}else{
 					Utils.Preference.setBooleanPref(getActivity(), Constants.IcuGradeResult.ATTENTION_RESULT_BOOLEAN, false);
 				}
-				ToastUtil.show(getActivity(), "提交成功，请滑动屏幕进行思维测试");
+//				ToastUtil.show(getActivity(), "提交成功，请滑动屏幕进行思维测试");
 				Utils.Preference.setStringPref(getActivity(), Constants.IcuGradeResult.ATTENTION_RESULT, attentionResult);
-				getActivity().finish();
-//				SameDayReturnActivity father = (SameDayReturnActivity) getActivity();
-//				father.showFragment(
-//						SameDayReturnActivity.Fragments.TAG_RETURN_CONFIRM_FRAGMENT,
-//						mBundle, true);
+//				getActivity().finish();
+                AttentionTestActivity father = (AttentionTestActivity) getActivity();
+                father.showFragment(
+                        AttentionTestActivity.Fragments.TAG_ATTENTION_RESULT_FRAGMENT,
+                        null, true);
 			}
 		});
 

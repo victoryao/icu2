@@ -48,7 +48,7 @@
     <dimen name="lottery_photo_box_height">180dip</dimen>
     <dimen name="micloud_login_progress_top">0dip</dimen>
     <dimen name="mihome_info_text_bottom">60dip</dimen>
-    <dimen name="opt_button_height">41dip</dimen>
+    <dimen name="opt_button_height">36dip</dimen>
     <dimen name="phone_filter_icon_height">18dip</dimen>
     <dimen name="phone_filter_icon_width">32dip</dimen>
     <dimen name="product_button_height">50dip</dimen>
@@ -63,11 +63,11 @@
     <dimen name="tab_container_bg_leftmargin">-296dip</dimen>
     <dimen name="tabs_visible_height">50.5dip</dimen>
     <dimen name="text_size_huge">26sp</dimen>
-    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
     <dimen name="text_size_max">38sp</dimen>
-    <dimen name="text_size_medium">16sp</dimen>
-    <dimen name="text_size_normal">14sp</dimen>
-    <dimen name="text_size_small">11sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_normal">12sp</dimen>
+    <dimen name="text_size_small">10sp</dimen>
     <dimen name="title_bar_height">50dip</dimen>
     <dimen name="title_bar_padding">12dip</dimen>
     <dimen name="title_header_height">50dip</dimen>
